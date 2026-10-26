@@ -1,0 +1,10 @@
+scenario,domain,assumed_women_share,women_funded,men_funded,OR,lo,hi
+uniform (same share in every domain),LS,0.4,55,79,1.0506,0.7275,1.5173
+uniform (same share in every domain),PE,0.4,64,133,0.6917,0.5043,0.9489
+uniform (same share in every domain),SH,0.4,82,59,2.3107,1.6167,3.3028
+"central (LS 1.15, PE 0.75, SH 1.30)",LS,0.4473,55,79,0.8427,0.5839,1.2161
+"central (LS 1.15, PE 0.75, SH 1.30)",PE,0.2917,64,133,1.1944,0.8679,1.6435
+"central (LS 1.15, PE 0.75, SH 1.30)",SH,0.5056,82,59,1.4155,0.9917,2.0205
+"steep (LS 1.25, PE 0.65, SH 1.45)",LS,0.4717,55,79,0.7537,0.5223,1.0874
+"steep (LS 1.25, PE 0.65, SH 1.45)",PE,0.2453,64,133,1.5716,1.1389,2.1689
+"steep (LS 1.25, PE 0.65, SH 1.45)",SH,0.5472,82,59,1.172,0.8209,1.6731

@@ -1,0 +1,4955 @@
+{
+ "main": {
+  "t1": {
+   "title": "Table 1. Per-call data and effect sizes, ERC Starting Grant calls 2017\u20132026 (women vs men).",
+   "columns": [
+    "Call",
+    "Evaluated proposals",
+    "Women's share of proposals (ERC wording)",
+    "Women funded / applied",
+    "Men funded / applied",
+    "Success women (%)",
+    "Success men (%)",
+    "OR (95% CI)",
+    "RD (pp)"
+   ],
+   "rows": [
+    [
+     "2017",
+     "3,085",
+     "37% (same share as 2018 release states for 2017)",
+     "164 / 1,141",
+     "242 / 1,944",
+     "14.4",
+     "12.4",
+     "1.18 (0.95\u20131.46)",
+     "+1.9"
+    ],
+    [
+     "2018",
+     "3,170",
+     "around 37%",
+     "159 / 1,173",
+     "244 / 1,997",
+     "13.6",
+     "12.2",
+     "1.13 (0.91\u20131.40)",
+     "+1.3"
+    ],
+    [
+     "2019",
+     "3,106",
+     "nearly 39%",
+     "154 / 1,196",
+     "254 / 1,910",
+     "12.9",
+     "13.3",
+     "0.96 (0.78\u20131.19)",
+     "-0.4"
+    ],
+    [
+     "2020",
+     "3,272",
+     "nearly 38%",
+     "163 / 1,227",
+     "273 / 2,045",
+     "13.3",
+     "13.4",
+     "0.99 (0.81\u20131.22)",
+     "-0.1"
+    ],
+    [
+     "2021",
+     "4,066",
+     "nearly 40%",
+     "170 / 1,606",
+     "226 / 2,460",
+     "10.6",
+     "9.2",
+     "1.17 (0.95\u20131.44)",
+     "+1.4"
+    ],
+    [
+     "2022",
+     "2,932",
+     "nearly 41%",
+     "161 / 1,187",
+     "245 / 1,745",
+     "13.6",
+     "14.0",
+     "0.96 (0.78\u20131.19)",
+     "-0.5"
+    ],
+    [
+     "2023",
+     "2,696",
+     "nearly 40%",
+     "171 / 1,065",
+     "228 / 1,631",
+     "16.1",
+     "14.0",
+     "1.18 (0.95\u20131.46)",
+     "+2.1"
+    ],
+    [
+     "2024",
+     "3,474",
+     "nearly 40%",
+     "216 / 1,372",
+     "275 / 2,102",
+     "15.7",
+     "13.1",
+     "1.24 (1.02\u20131.51)",
+     "+2.7"
+    ],
+    [
+     "2025",
+     "3,928",
+     "40%",
+     "201 / 1,571",
+     "271 / 2,357",
+     "12.8",
+     "11.5",
+     "1.13 (0.93\u20131.37)",
+     "+1.3"
+    ],
+    [
+     "2026",
+     "4,807",
+     "nearly 43%",
+     "172 / 2,043",
+     "248 / 2,764",
+     "8.4",
+     "9.0",
+     "0.93 (0.76\u20131.14)",
+     "-0.6"
+    ]
+   ],
+   "note": "Women's applicant counts are the midpoint of the published rounding interval multiplied by the number of evaluated proposals; non-binary grantees (14 in total) are excluded from the female/male tables. OR, odds ratio; RD, risk difference in percentage points.",
+   "widths": [
+    6,
+    9,
+    20,
+    12,
+    12,
+    8,
+    8,
+    14,
+    6
+   ]
+  },
+  "t2": {
+   "title": "Table 2. Pooled gender contrast (women vs men) under alternative estimators, and heterogeneity.",
+   "columns": [
+    "Estimator",
+    "Measure",
+    "Estimate (95% CI)",
+    "p",
+    "\u03c4\u00b2"
+   ],
+   "rows": [
+    [
+     "Mantel\u2013Haenszel (RBG variance)",
+     "OR",
+     "1.084 (1.015\u20131.157)",
+     "0.016",
+     "0.00000"
+    ],
+    [
+     "Peto",
+     "OR",
+     "1.085 (1.015\u20131.159)",
+     "0.016",
+     "0.00000"
+    ],
+    [
+     "Inverse-variance common effect",
+     "OR",
+     "1.085 (1.016\u20131.158)",
+     "0.015",
+     "0.00000"
+    ],
+    [
+     "DerSimonian\u2013Laird",
+     "OR",
+     "1.085 (1.016\u20131.158)",
+     "0.015",
+     "0.00000"
+    ],
+    [
+     "Paule\u2013Mandel",
+     "OR",
+     "1.085 (1.016\u20131.158)",
+     "0.015",
+     "0.00000"
+    ],
+    [
+     "REML",
+     "OR",
+     "1.085 (1.015\u20131.159)",
+     "0.016",
+     "0.00020"
+    ],
+    [
+     "REML + Hartung\u2013Knapp (primary)",
+     "OR",
+     "1.085 (1.005\u20131.170)",
+     "0.038",
+     "0.00020"
+    ],
+    [
+     "DL + Hartung\u2013Knapp",
+     "OR",
+     "1.085 (1.006\u20131.170)",
+     "0.038",
+     "0.00000"
+    ],
+    [
+     "REML + Hartung\u2013Knapp",
+     "RR",
+     "1.075 (1.006\u20131.147)",
+     "0.036",
+     "0.00000"
+    ],
+    [
+     "REML + Hartung\u2013Knapp",
+     "RD (pp)",
+     "0.81 (-0.04\u20131.66)",
+     "0.059",
+     "0.00000"
+    ]
+   ],
+   "note": "Heterogeneity (log OR): Q = 9.02, df = 9, p = 0.44; I\u00b2 = 0% (95% CI 0\u201362%); \u03c4\u00b2 = 0.0002 (Q-profile CI 0.000\u20130.026); 95% prediction interval 0.997\u20131.180. RBG, Robins\u2013Breslow\u2013Greenland.",
+   "widths": null
+  },
+  "t3": {
+   "title": "Table 3. Quantitative bias analysis of the pooled gender contrast.",
+   "columns": [
+    "Analysis",
+    "Pooled OR (95% interval) or value",
+    "Details"
+   ],
+   "rows": [
+    [
+     "Conventional analysis (random error only)",
+     "1.085 (1.005\u20131.170)",
+     "REML + Hartung\u2013Knapp"
+    ],
+    [
+     "Rounding of published applicant shares: systematic error only",
+     "1.084 (1.075\u20131.094)",
+     "5,000 draws, uniform within each call's interval"
+    ],
+    [
+     "Rounding: systematic + random error",
+     "1.084 (1.013\u20131.159)",
+     "P(OR < 1) = 0.009"
+    ],
+    [
+     "Rounding + domain composition: systematic only",
+     "1.085 (1.075\u20131.094)",
+     "within-domain shares LS 1.15, PE 0.75, SH 1.30 (\u00b10.15) \u00d7 overall share"
+    ],
+    [
+     "Rounding + domain composition: systematic + random",
+     "1.085 (1.012\u20131.161)",
+     "P(OR < 1) = 0.011"
+    ],
+    [
+     "Confounding OR induced by domain composition alone (range over calls)",
+     "0.989\u20131.007",
+     "point estimates per call"
+    ],
+    [
+     "E-value, pooled RR 1.074 (point / CI limit)",
+     "1.36 / 1.08",
+     "VanderWeele & Ding"
+    ],
+    [
+     "E-value to mask a true RR of 0.95 (point / CI limit)",
+     "1.52 / 1.31",
+     ""
+    ],
+    [
+     "E-value to mask a true RR of 0.90 (point / CI limit)",
+     "1.67 / 1.48",
+     ""
+    ],
+    [
+     "Self-selection: break-even quality shift \u03b4 of the female pool (SD)",
+     "0.043 / 0.051 / 0.061",
+     "evaluation reliability \u03c1 = 1 / 0.7 / 0.5"
+    ],
+    [
+     "Self-selection: implied evaluation-stage OR if \u03b4 = 0.1 SD",
+     "0.898 / 0.926 / 0.949",
+     "\u03c1 = 1 / 0.7 / 0.5"
+    ],
+    [
+     "Self-selection: implied evaluation-stage OR if \u03b4 = 0.2 SD",
+     "0.745 / 0.792 / 0.831",
+     "\u03c1 = 1 / 0.7 / 0.5"
+    ]
+   ],
+   "note": "Applicant pool: 39.3% women; overall success rate 12.27%. The self-selection model assumes latent merit N(\u03b4, 1) for women and N(0, 1) for men, evaluation score = merit + noise with reliability \u03c1, and a common funding threshold.",
+   "widths": null
+  },
+  "t4": {
+   "title": "Table 4. Sensitivity analyses, historical comparators and Bayesian estimates of the pooled OR (women vs men).",
+   "columns": [
+    "Analysis",
+    "OR (95% CI / CrI)",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Primary: 10 calls 2017\u20132026, REML + HK",
+     "1.085 (1.005\u20131.170)",
+     "\u03c4\u00b2 = 0.0002, I\u00b2 = 0%"
+    ],
+    [
+     "Non-binary grantees removed from the denominator",
+     "1.084 (1.005\u20131.170)",
+     ""
+    ],
+    [
+     "2023 call: updated reserve-list counts (398 funded)",
+     "1.088 (1.006\u20131.176)",
+     ""
+    ],
+    [
+     "Extended 2013\u20132026 (2013, 2015, 2016 applicant share imputed; Monte Carlo)",
+     "1.036 (0.954\u20131.123)",
+     "I\u00b2 median 42% (97.5th pct 57%)"
+    ],
+    [
+     "Extended 2013\u20132026, point imputation, REML + HK",
+     "1.036 (0.951\u20131.129)",
+     "trend +0.0146/yr, KH p = 0.17, permutation p = 0.16"
+    ],
+    [
+     "FP7-era comparator, StG 2007\u20132013 (rounded rates 8% vs 10%)",
+     "0.783 (rounding range 0.69\u20130.88)",
+     "historical"
+    ],
+    [
+     "StG 2007\u20132016 share-based (31% of applications, 27% of grants)",
+     "0.823",
+     "historical"
+    ],
+    [
+     "Bayesian HN, weakly informative priors",
+     "1.081 (0.996\u20131.172)",
+     "P(OR<1) = 0.024; P(ROPE) = 0.67; BF10 = 0.31; predictive 0.90\u20131.29"
+    ],
+    [
+     "Bayesian HN, sceptical prior on \u03bc",
+     "1.077 (0.994\u20131.165)",
+     "P(OR<1) = 0.026; P(ROPE) = 0.70; BF10 = 1.40; predictive 0.90\u20131.29"
+    ],
+    [
+     "Bayesian HN, strong shrinkage on \u03c4",
+     "1.081 (1.001\u20131.166)",
+     "P(OR<1) = 0.017; P(ROPE) = 0.68; BF10 = 0.35; predictive 0.93\u20131.25"
+    ],
+    [
+     "Bayesian HN, marginal maximum likelihood",
+     "1.083 (1.015\u20131.156)",
+     "\u03c4\u0302 = 0.000"
+    ],
+    [
+     "Power prior on FP7-era aggregate, a\u2080 = 0.1",
+     "1.059 (0.970\u20131.142)",
+     "P(OR<1) = 0.069"
+    ],
+    [
+     "Power prior on FP7-era aggregate, a\u2080 = 0.25",
+     "1.029 (0.916\u20131.109)",
+     "P(OR<1) = 0.229"
+    ],
+    [
+     "Power prior on FP7-era aggregate, a\u2080 = 0.5",
+     "0.963 (0.816\u20131.059)",
+     "P(OR<1) = 0.705"
+    ],
+    [
+     "Power prior on FP7-era aggregate, a\u2080 = 1.0",
+     "0.850 (0.762\u20130.952)",
+     "P(OR<1) = 0.997"
+    ]
+   ],
+   "note": "HN, exact-conditional hypergeometric-normal model; ROPE, region of practical equivalence 0.91\u20131.10; BF10, Savage\u2013Dickey Bayes factor against OR = 1; HK, Hartung\u2013Knapp.",
+   "widths": null
+  },
+  "t5": {
+   "title": "Table 5. Geographic distribution of StG grants: widening-country share, standardised grant ratios, association-status contrasts and concentration.",
+   "columns": [
+    "Quantity",
+    "Estimate (95% CI)",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Share of grants hosted in widening Member States (10 calls)",
+     "4.22% (3.74\u20134.77)",
+     "I\u00b2 = 0%; trend KH p = 0.43, permutation p = 0.43"
+    ],
+    [
+     "\u2026 including associated widening countries",
+     "4.62% (4.12\u20135.18)",
+     ""
+    ],
+    [
+     "Standardised grant ratio if widening applicants are 10.0% of the pool",
+     "0.423 (0.374\u20130.477)",
+     "implied success-rate ratio 0.40"
+    ],
+    [
+     "Standardised grant ratio if widening applicants are 12.5% of the pool",
+     "0.338 (0.300\u20130.382)",
+     "implied success-rate ratio 0.31"
+    ],
+    [
+     "Standardised grant ratio if widening applicants are 15.0% of the pool",
+     "0.282 (0.250\u20130.318)",
+     "implied success-rate ratio 0.25"
+    ],
+    [
+     "Standardised grant ratio if widening applicants are 25.0% of the pool",
+     "0.169 (0.150\u20130.191)",
+     "implied success-rate ratio 0.13"
+    ],
+    [
+     "Widening share of ERC applications, all schemes, 2024 (ERC white paper: 940 vs 7,271)",
+     "11.4%",
+     "external anchor for the applicant-share scenarios"
+    ],
+    [
+     "Standardised grant ratio and implied success-rate ratio at that share",
+     "SGR 0.37",
+     "success-rate ratio 0.34"
+    ],
+    [
+     "Extra grants per call for parity at 10.0% applicant share",
+     "24",
+     "6% of all grants"
+    ],
+    [
+     "Extra grants per call for parity at 12.5% applicant share",
+     "34",
+     "8% of all grants"
+    ],
+    [
+     "Extra grants per call for parity at 15.0% applicant share",
+     "44",
+     "11% of all grants"
+    ],
+    [
+     "UK: 2021-23 non-associated (guarantee) vs Horizon 2020 (17.3%)",
+     "OR 0.63 (0.42\u20130.94)",
+     "share 11.6%; KH p = 0.028"
+    ],
+    [
+     "UK: 2024+ re-associated vs Horizon 2020 (17.3%)",
+     "OR 0.61 (0.48\u20130.78)",
+     "share 11.3%; KH p = 0.002"
+    ],
+    [
+     "CH: 2021-23 non-associated (hosts eligible at submission) vs Horizon 2020 (6.8%)",
+     "OR 1.05 (0.63\u20131.73)",
+     "share 7.1%; KH p = 0.835"
+    ],
+    [
+     "CH: 2024 hosts ineligible vs Horizon 2020 (6.8%)",
+     "OR 0.01 (0.00\u20130.41)",
+     "share 0.1%; KH p = 0.020"
+    ],
+    [
+     "CH: 2025+ transitional association vs Horizon 2020 (6.8%)",
+     "OR 1.19 (0.84\u20131.68)",
+     "share 7.9%; KH p = 0.284"
+    ],
+    [
+     "UK: permutation p for the first contrast",
+     "0.007",
+     ""
+    ],
+    [
+     "Concentration (mean over calls)",
+     "Gini 0.58; top-5 62%",
+     "Gini trend -0.0020/yr"
+    ],
+    [
+     "Rank stability of host-country distribution",
+     "consecutive Spearman \u03c1 0.81\u20130.96 (median 0.91)",
+     "2013 vs 2026: \u03c1 = 0.78"
+    ]
+   ],
+   "note": "Widening Member States: BG, HR, CY, CZ, EE, EL, HU, LV, LT, MT, PL, PT, RO, SK, SI. Applicant counts by country are not published, so the standardised grant ratio is reported under scenarios for the widening countries' share of applications.",
+   "widths": null
+  },
+  "t6": {
+   "title": "Table 6. Competition dynamics of the StG scheme.",
+   "columns": [
+    "Quantity",
+    "Estimate",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Pooled success rate, 13 verified calls (logit REML + HK)",
+     "12.2% (10.9\u201313.5)",
+     "I\u00b2 = 93%; \u03c4 (logit) = 0.19"
+    ],
+    [
+     "95% prediction interval for a new call",
+     "8.1\u201317.8%",
+     ""
+    ],
+    [
+     "Pairwise cohort odds ratios (range)",
+     "0.54\u20131.85",
+     "2026 vs 2024: 0.58; 2026 vs 2023: 0.55"
+    ],
+    [
+     "2025\u21922026 change: \u0394log applications / \u0394log grants / \u0394log success rate",
+     "+20.2 / -12.7 / -32.9 log-points",
+     "demand share of the change 61%"
+    ],
+    [
+     "Demand elasticity to previous call's success rate (verified series)",
+     "+0.13 (HC1 SE 0.40)",
+     "permutation p = 0.65; n = 11"
+    ],
+    [
+     "Demand elasticity (extended series 2007\u20132026)",
+     "+0.16 (HC1 SE 0.12)",
+     "permutation p = 0.27; n = 17"
+    ],
+    [
+     "Application cost, 2026 call (20 / 34 / 50 working days per proposal)",
+     "437 / 743 / 1092 person-years",
+     "1.0 / 1.8 / 2.6 per grant; 21\u201352% of funded PI-years"
+    ],
+    [
+     "Women's share of proposals, linear trend 2017\u20132026",
+     "+0.50 pp/yr (SE 0.09)",
+     "p = 0.0007; grantee share +0.43 pp/yr"
+    ],
+    [
+     "Projected year of a 50% applicant share",
+     "2043 (2037\u20132057)",
+     "P(parity before 2035) = 0.001"
+    ]
+   ],
+   "note": "Verified series: calls 2013 and 2015\u20132026. Person-years assume 220 working days per year; funded PI-years = grants \u00d7 5.",
+   "widths": null
+  },
+  "t7": {
+   "title": "Table 7. Domain structure: neutrality of success rates, demand shift and gender-by-domain identification.",
+   "columns": [
+    "Quantity",
+    "Estimate",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Within-call equality of domain success rates",
+     "0 of 13 calls with \u03c7\u00b2 p < 0.05",
+     "max/min success-rate ratio: median 1.05, max 1.46 (2013)"
+    ],
+    [
+     "Pooled success-rate ratio SH vs PE",
+     "0.962 (0.923\u20131.004)",
+     "p = 0.069; I\u00b2 = 0%; trend +1.1%/yr, permutation p = 0.021"
+    ],
+    [
+     "Pooled success-rate ratio LS vs PE",
+     "1.028 (1.002\u20131.054)",
+     "p = 0.038; I\u00b2 = 0%; trend -0.2%/yr, permutation p = 0.503"
+    ],
+    [
+     "Share of proposals: LS",
+     "32.2% (2013) \u2192 26.2% (2026)",
+     "-0.35 pp/yr, permutation p = 0.0015"
+    ],
+    [
+     "Share of proposals: PE",
+     "44.6% (2013) \u2192 41.0% (2026)",
+     "-0.23 pp/yr, permutation p = 0.0005"
+    ],
+    [
+     "Share of proposals: SH",
+     "23.1% (2013) \u2192 32.8% (2026)",
+     "+0.58 pp/yr, permutation p = 0.0005"
+    ],
+    [
+     "2025 call: applicant shares of women that would make every domain OR = 1",
+     "LS 41%, PE 32%, SH 58%",
+     "weighted average 42.7% vs published 40%"
+    ]
+   ],
+   "note": "LS, Life Sciences; PE, Physical Sciences and Engineering; SH, Social Sciences and Humanities. Thirteen calls (2013, 2015\u20132026).",
+   "widths": null
+  },
+  "t8": {
+   "title": "Table 8. Selection-mechanism simulation: outcomes at a fixed stage reliability of 0.5 and under the meta-analytic reliability distribution.",
+   "columns": [
+    "Mechanism",
+    "Mean merit of funded set (SD), \u03c1 = 0.5",
+    "True top-K funded, \u03c1 = 0.5",
+    "True top-1% funded, \u03c1 = 0.5",
+    "OR for \u22120.2 SD subgroup, \u03c1 = 0.5",
+    "Full reviews (of 3,500)",
+    "Mean merit, \u03c1 from meta-analysis (95% interval)",
+    "True top-K funded, \u03c1 from meta-analysis",
+    "Subgroup OR, \u03c1 from meta-analysis"
+   ],
+   "rows": [
+    [
+     "single-stage panel",
+     "1.10",
+     "50%",
+     "83%",
+     "0.78",
+     "3500",
+     "1.25 (1.09\u20131.35)",
+     "59% (50\u201367)",
+     "0.74 (0.73\u20130.78)"
+    ],
+    [
+     "two-stage (ERC-like)",
+     "1.27",
+     "60%",
+     "94%",
+     "0.75",
+     "1050",
+     "1.39 (1.26\u20131.45)",
+     "68% (59\u201375)",
+     "0.72 (0.72\u20130.75)"
+    ],
+    [
+     "threshold + lottery",
+     "0.83",
+     "37%",
+     "48%",
+     "0.82",
+     "858",
+     "0.95 (0.83\u20131.03)",
+     "41% (36\u201344)",
+     "0.80 (0.79\u20130.82)"
+    ],
+    [
+     "merit top-half + lottery",
+     "1.00",
+     "45%",
+     "77%",
+     "0.79",
+     "858",
+     "1.14 (0.99\u20131.22)",
+     "52% (45\u201356)",
+     "0.77 (0.75\u20130.79)"
+    ],
+    [
+     "pure lottery",
+     "-0.08",
+     "12%",
+     "13%",
+     "1.01",
+     "0",
+     "-0.08 (-0.08\u2013-0.08)",
+     "12% (12\u201312)",
+     "1.00 (0.99\u20131.01)"
+    ]
+   ],
+   "note": "Simulated competition: 3,500 applicants, success rate 12.3%, subgroup share 39% with latent-merit shift \u22120.2 SD; 200 replications per reliability value. Meta-analytic reliability: pooled single-rater ICC 0.261 (0.238\u20130.284), five-rater panel 0.64 (0.49\u20130.74) including an assumed between-funder SD of 0.05. Two-stage gain in mean merit 0.13 SD (0.10\u20130.17); threshold-lottery cost 0.30 SD (0.26\u20130.32); hybrid cost 0.12 SD (0.10\u20130.12).",
+   "widths": null
+  }
+ },
+ "supp": {
+  "s1": {
+   "title": "Table S1. Provenance of every input (per call).",
+   "columns": [
+    "call",
+    "evaluated_proposals",
+    "LS",
+    "PE",
+    "SH",
+    "selected",
+    "sel_LS",
+    "sel_PE",
+    "sel_SH",
+    "women_share_apps_text",
+    "share_lo",
+    "share_hi",
+    "grantees_F",
+    "grantees_M",
+    "grantees_NB",
+    "notes"
+   ],
+   "rows": [
+    [
+     "2017",
+     "3085",
+     "874",
+     "1339",
+     "872",
+     "406",
+     "118",
+     "177",
+     "111",
+     "37 % (same share as 2018 release states for 2017)",
+     "36.5",
+     "37.5",
+     "164",
+     "242",
+     "0",
+     "ERC press release: women 14.5 % vs men 12.7 % success in 2017 (external check)."
+    ],
+    [
+     "2018",
+     "3170",
+     "918",
+     "1341",
+     "911",
+     "403",
+     "118",
+     "170",
+     "115",
+     "around 37 %",
+     "36.5",
+     "37.5",
+     "159",
+     "244",
+     "0",
+     "\u2013"
+    ],
+    [
+     "2019",
+     "3106",
+     "867",
+     "1363",
+     "876",
+     "408",
+     "115",
+     "178",
+     "115",
+     "nearly 39 %",
+     "38.0",
+     "39.0",
+     "154",
+     "254",
+     "0",
+     "\u2013"
+    ],
+    [
+     "2020",
+     "3272",
+     "923",
+     "1409",
+     "940",
+     "436",
+     "124",
+     "186",
+     "126",
+     "nearly 38 %",
+     "37.0",
+     "38.0",
+     "163",
+     "273",
+     "0",
+     "Preliminary submissions 3,271; evaluated 3,272."
+    ],
+    [
+     "2021",
+     "4066",
+     "1113",
+     "1762",
+     "1191",
+     "397",
+     "111",
+     "172",
+     "114",
+     "nearly 40 %",
+     "39.0",
+     "40.0",
+     "170",
+     "226",
+     "1",
+     "Initial selection (397). An updated release later listed 471 funded incl. reserve list, without a gender split; we use the version with the gender split."
+    ],
+    [
+     "2022",
+     "2932",
+     "860",
+     "1224",
+     "848",
+     "408",
+     "124",
+     "168",
+     "116",
+     "nearly 41 %",
+     "40.0",
+     "41.0",
+     "161",
+     "245",
+     "2",
+     "\u2013"
+    ],
+    [
+     "2023",
+     "2696",
+     "735",
+     "1150",
+     "811",
+     "400",
+     "110",
+     "173",
+     "117",
+     "nearly 40 %",
+     "39.0",
+     "40.0",
+     "171",
+     "228",
+     "1",
+     "Updated statistics (Jan 2025) list 398 funded: F 173, M 224, NB 1 - used in a sensitivity run."
+    ],
+    [
+     "2024",
+     "3474",
+     "992",
+     "1443",
+     "1039",
+     "494",
+     "146",
+     "209",
+     "139",
+     "nearly 40 %",
+     "39.0",
+     "40.0",
+     "216",
+     "275",
+     "3",
+     "\u2013"
+    ],
+    [
+     "2025",
+     "3928",
+     "1099",
+     "1640",
+     "1189",
+     "478",
+     "137",
+     "197",
+     "144",
+     "40 %",
+     "39.5",
+     "40.5",
+     "201",
+     "271",
+     "6",
+     "Domain x gender split available: F LS55/PE64/SH82; M LS79/PE133/SH59; NB LS3/SH3."
+    ],
+    [
+     "2026",
+     "4807",
+     "1261",
+     "1971",
+     "1575",
+     "421",
+     "113",
+     "169",
+     "139",
+     "nearly 43 %",
+     "42.0",
+     "43.0",
+     "172",
+     "248",
+     "1",
+     "Most recent call (results 3 Sep 2026); women's applicant share from secondary reporting."
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s1b": {
+   "title": "Table S1b. Source URLs per call.",
+   "columns": [
+    "call",
+    "source_statistics",
+    "source_share"
+   ],
+   "rows": [
+    [
+     "2017",
+     "https://erc.europa.eu/sites/default/files/document/file/erc_2017_stg_statistics.pdf",
+     "https://erc.europa.eu/news/applications-erc-starting-grants-2018-%E2%80%93-facts-and-figures"
+    ],
+    [
+     "2018",
+     "https://erc.europa.eu/sites/default/files/document/file/erc_2018_stg_statistics.pdf",
+     "https://erc.europa.eu/news/applications-erc-starting-grants-2018-%E2%80%93-facts-and-figures"
+    ],
+    [
+     "2019",
+     "https://erc.europa.eu/sites/default/files/document/file/erc_2019_stg_statistics.pdf",
+     "https://erc.europa.eu/news/starting-grants-applications-fact-and-figures"
+    ],
+    [
+     "2020",
+     "https://erc.europa.eu/sites/default/files/document/file/erc_2020_stg_statistics.pdf",
+     "https://erc.europa.eu/news/starting-grants-2020-applications-fact-and-figures"
+    ],
+    [
+     "2021",
+     "https://erc.europa.eu/sites/default/files/document/file/erc_2021_stg_statistics.pdf",
+     "https://erc.europa.eu/news/applications-erc-starting-grants-2021-facts-and-figures"
+    ],
+    [
+     "2022",
+     "https://erc.europa.eu/sites/default/files/2022-11/stg_2022_statistics.pdf",
+     "https://erc.europa.eu/news/applications-erc-starting-grants-2022-facts-and-figures"
+    ],
+    [
+     "2023",
+     "https://erc.europa.eu/sites/default/files/2023-09/erc-2023-stg-statistics.pdf",
+     "https://erc.europa.eu/news-events/news/applications-erc-starting-grants-2023-facts-and-figures"
+    ],
+    [
+     "2024",
+     "https://erc.europa.eu/sites/default/files/2024-09/erc-2024-stg-statistics.pdf",
+     "https://erc.europa.eu/news-events/news/starting-grants-2024-applications-facts-and-figures"
+    ],
+    [
+     "2025",
+     "https://erc.europa.eu/system/files/2025-09/erc-2025-stg-statistics.pdf",
+     "https://erc.europa.eu/news-events/news/starting-grants-2025-applications-facts-and-figures"
+    ],
+    [
+     "2026",
+     "https://erc.europa.eu/system/files/2026-09/erc-2026-stg-statistics.pdf",
+     "ERC facts & figures for the 2026 call as reported by secondary sources (grantbite.com, proposia.ai); flagged for verification against the ERC release."
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s2": {
+   "title": "Table S2. Analytic 2\u00d72 tables and effect sizes.",
+   "columns": [
+    "year",
+    "a",
+    "b",
+    "c",
+    "d",
+    "n_w",
+    "n_m",
+    "n",
+    "share_w",
+    "p_w",
+    "p_m",
+    "logOR",
+    "var_logOR",
+    "OR",
+    "OR_lo",
+    "OR_hi",
+    "RR",
+    "RD_pp",
+    "RD_lo_pp",
+    "RD_hi_pp"
+   ],
+   "rows": [
+    [
+     "2017",
+     "164.0000",
+     "977.0000",
+     "242.0000",
+     "1,702",
+     "1,141",
+     "1,944",
+     "3085",
+     "0.3700",
+     "0.1437",
+     "0.1245",
+     "0.1660",
+     "0.0118",
+     "1.1806",
+     "0.9538",
+     "1.4612",
+     "1.1546",
+     "1.9248",
+     "-0.5847",
+     "4.4343"
+    ],
+    [
+     "2018",
+     "159.0000",
+     "1,014",
+     "244.0000",
+     "1,753",
+     "1,173",
+     "1,997",
+     "3170",
+     "0.3700",
+     "0.1355",
+     "0.1222",
+     "0.1192",
+     "0.0119",
+     "1.1266",
+     "0.9093",
+     "1.3957",
+     "1.1094",
+     "1.3367",
+     "-1.0925",
+     "3.7658"
+    ],
+    [
+     "2019",
+     "154.0000",
+     "1,042",
+     "254.0000",
+     "1,656",
+     "1,196",
+     "1,910",
+     "3106",
+     "0.3850",
+     "0.1288",
+     "0.1330",
+     "-0.0371",
+     "0.0120",
+     "0.9636",
+     "0.7774",
+     "1.1943",
+     "0.9683",
+     "-0.4222",
+     "-2.8558",
+     "2.0114"
+    ],
+    [
+     "2020",
+     "163.0000",
+     "1,064",
+     "273.0000",
+     "1,772",
+     "1,227",
+     "2,045",
+     "3272",
+     "0.3750",
+     "0.1328",
+     "0.1335",
+     "-0.0056",
+     "0.0113",
+     "0.9944",
+     "0.8073",
+     "1.2247",
+     "0.9951",
+     "-0.0652",
+     "-2.4693",
+     "2.3389"
+    ],
+    [
+     "2021",
+     "170.0000",
+     "1,436",
+     "226.0000",
+     "2,234",
+     "1,606",
+     "2,460",
+     "4066",
+     "0.3950",
+     "0.1059",
+     "0.0919",
+     "0.1572",
+     "0.0115",
+     "1.1702",
+     "0.9488",
+     "1.4433",
+     "1.1522",
+     "1.3983",
+     "-0.4903",
+     "3.2869"
+    ],
+    [
+     "2022",
+     "161.0000",
+     "1,026",
+     "245.0000",
+     "1,500",
+     "1,187",
+     "1,745",
+     "2932",
+     "0.4050",
+     "0.1356",
+     "0.1404",
+     "-0.0401",
+     "0.0119",
+     "0.9607",
+     "0.7756",
+     "1.1901",
+     "0.9661",
+     "-0.4765",
+     "-3.0164",
+     "2.0634"
+    ],
+    [
+     "2023",
+     "171.0000",
+     "894.0000",
+     "228.0000",
+     "1,403",
+     "1,065",
+     "1,631",
+     "2696",
+     "0.3950",
+     "0.1606",
+     "0.1398",
+     "0.1630",
+     "0.0121",
+     "1.1770",
+     "0.9490",
+     "1.4598",
+     "1.1486",
+     "2.0772",
+     "-0.6966",
+     "4.8510"
+    ],
+    [
+     "2024",
+     "216.0000",
+     "1,156",
+     "275.0000",
+     "1,827",
+     "1,372",
+     "2,102",
+     "3474",
+     "0.3950",
+     "0.1574",
+     "0.1308",
+     "0.2162",
+     "0.0097",
+     "1.2414",
+     "1.0237",
+     "1.5054",
+     "1.2034",
+     "2.6607",
+     "0.2539",
+     "5.0674"
+    ],
+    [
+     "2025",
+     "201.0000",
+     "1,370",
+     "271.0000",
+     "2,086",
+     "1,571",
+     "2,357",
+     "3928",
+     "0.4000",
+     "0.1279",
+     "0.1150",
+     "0.1216",
+     "0.0099",
+     "1.1293",
+     "0.9295",
+     "1.3722",
+     "1.1128",
+     "1.2967",
+     "-0.7978",
+     "3.3912"
+    ],
+    [
+     "2026",
+     "172.0000",
+     "1,871",
+     "248.0000",
+     "2,516",
+     "2,043",
+     "2,764",
+     "4807",
+     "0.4250",
+     "0.0842",
+     "0.0897",
+     "-0.0697",
+     "0.0108",
+     "0.9326",
+     "0.7609",
+     "1.1431",
+     "0.9383",
+     "-0.5535",
+     "-2.1613",
+     "1.0543"
+    ]
+   ],
+   "note": "a, women funded; b, women not funded; c, men funded; d, men not funded.",
+   "widths": null
+  },
+  "s3": {
+   "title": "Table S3. Pooled log-OR estimates by estimator (full output).",
+   "columns": [
+    "model",
+    "est",
+    "lo",
+    "hi",
+    "se_log",
+    "z",
+    "p",
+    "tau2",
+    "tau2_lo",
+    "tau2_hi",
+    "Q",
+    "df",
+    "p_Q",
+    "I2",
+    "I2_lo",
+    "I2_hi",
+    "pi_lo",
+    "pi_hi",
+    "hksj_q"
+   ],
+   "rows": [
+    [
+     "IV_FE",
+     "1.0847",
+     "1.0158",
+     "1.1583",
+     "0.0335",
+     "2.4272",
+     "0.0152",
+     "0.0000",
+     "\u2013",
+     "\u2013",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "\u2013",
+     "\u2013",
+     "\u2013"
+    ],
+    [
+     "MH",
+     "1.0839",
+     "1.0151",
+     "1.1574",
+     "0.0335",
+     "2.4076",
+     "0.0161",
+     "0.0000",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "0",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013"
+    ],
+    [
+     "Peto",
+     "1.0845",
+     "1.0152",
+     "1.1585",
+     "0.0337",
+     "2.4084",
+     "0.0160",
+     "0.0000",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "0",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013",
+     "\u2013"
+    ],
+    [
+     "DL",
+     "1.0847",
+     "1.0157",
+     "1.1583",
+     "0.0335",
+     "2.4249",
+     "0.0153",
+     "0.0000",
+     "0.0000",
+     "0.0259",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "1.0033",
+     "1.1727",
+     "\u2013"
+    ],
+    [
+     "PM",
+     "1.0847",
+     "1.0157",
+     "1.1583",
+     "0.0335",
+     "2.4249",
+     "0.0153",
+     "0.0000",
+     "0.0000",
+     "0.0259",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "1.0033",
+     "1.1726",
+     "\u2013"
+    ],
+    [
+     "REML",
+     "1.0846",
+     "1.0151",
+     "1.1590",
+     "0.0338",
+     "2.4016",
+     "0.0163",
+     "0.0002",
+     "0.0000",
+     "0.0259",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "0.9959",
+     "1.1812",
+     "\u2013"
+    ],
+    [
+     "REML_HKSJ",
+     "1.0846",
+     "1.0054",
+     "1.1701",
+     "0.0335",
+     "2.4238",
+     "0.0384",
+     "0.0002",
+     "0.0000",
+     "0.0259",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "0.9966",
+     "1.1805",
+     "0.9818"
+    ],
+    [
+     "DL_HKSJ",
+     "1.0847",
+     "1.0055",
+     "1.1701",
+     "0.0335",
+     "2.4249",
+     "0.0383",
+     "0.0000",
+     "0.0000",
+     "0.0259",
+     "9.0159",
+     "9",
+     "0.4358",
+     "0.0018",
+     "0.0000",
+     "0.6244",
+     "1.0033",
+     "1.1727",
+     "1.0000"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s3b": {
+   "title": "Table S3b. Pooled RR and RD.",
+   "columns": [
+    "measure",
+    "est",
+    "lo",
+    "hi",
+    "p",
+    "tau2",
+    "I2",
+    "pi_lo",
+    "pi_hi"
+   ],
+   "rows": [
+    [
+     "RR",
+     "1.0745",
+     "1.0060",
+     "1.1475",
+     "0.0356",
+     "0.0000",
+     "0.0000",
+     "1.0037",
+     "1.1501"
+    ],
+    [
+     "RD (pp)",
+     "0.8103",
+     "-0.0377",
+     "1.6584",
+     "0.0589",
+     "0.0000",
+     "0.0842",
+     "-0.5834",
+     "2.2040"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s4": {
+   "title": "Table S4. Mixed-effects meta-regression (REML, Knapp\u2013Hartung) on call year and programme era.",
+   "columns": [
+    "model",
+    "term",
+    "beta",
+    "se",
+    "ci_lo",
+    "ci_hi",
+    "t",
+    "p_KH",
+    "perm_p",
+    "tau2_resid",
+    "QE",
+    "p_QE"
+   ],
+   "rows": [
+    [
+     "year (centred)",
+     "intercept",
+     "0.0813",
+     "0.0355",
+     "-0.0004",
+     "0.1631",
+     "2.2936",
+     "0.0510",
+     "0.8392",
+     "0.0016",
+     "7.8423",
+     "0.4490"
+    ],
+    [
+     "year (centred)",
+     "year_centred",
+     "-0.0027",
+     "0.0123",
+     "-0.0310",
+     "0.0256",
+     "-0.2176",
+     "0.8332",
+     "0.8392",
+     "0.0016",
+     "7.8423",
+     "0.4490"
+    ],
+    [
+     "era (HE vs H2020)",
+     "intercept",
+     "0.0601",
+     "0.0566",
+     "-0.0705",
+     "0.1906",
+     "1.0608",
+     "0.3197",
+     "0.6691",
+     "0.0012",
+     "7.9211",
+     "0.4412"
+    ],
+    [
+     "era (HE vs H2020)",
+     "HorizonEurope",
+     "0.0340",
+     "0.0721",
+     "-0.1322",
+     "0.2003",
+     "0.4722",
+     "0.6494",
+     "0.6691",
+     "0.0012",
+     "7.9211",
+     "0.4412"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s5": {
+   "title": "Table S5. Leave-one-out influence diagnostics.",
+   "columns": [
+    "omitted_call",
+    "OR",
+    "OR_lo",
+    "OR_hi",
+    "tau2",
+    "I2",
+    "cook",
+    "rstudent",
+    "Q_contribution",
+    "baujat_influence"
+   ],
+   "rows": [
+    [
+     "2017",
+     "1.0749",
+     "0.9894",
+     "1.1678",
+     "0.0007",
+     "0.0415",
+     "0.0725",
+     "0.7966",
+     "0.6060",
+     "0.0617"
+    ],
+    [
+     "2018",
+     "1.0801",
+     "0.9916",
+     "1.1764",
+     "0.0014",
+     "0.0994",
+     "0.0158",
+     "0.3476",
+     "0.1200",
+     "0.0128"
+    ],
+    [
+     "2019",
+     "1.0980",
+     "1.0139",
+     "1.1891",
+     "0.0000",
+     "0.0000",
+     "0.1340",
+     "-1.1375",
+     "1.1691",
+     "0.1216"
+    ],
+    [
+     "2020",
+     "1.0950",
+     "1.0080",
+     "1.1895",
+     "0.0005",
+     "0.0330",
+     "0.0804",
+     "-0.8412",
+     "0.6688",
+     "0.0692"
+    ],
+    [
+     "2021",
+     "1.0755",
+     "0.9893",
+     "1.1693",
+     "0.0009",
+     "0.0542",
+     "0.0631",
+     "0.7223",
+     "0.5031",
+     "0.0528"
+    ],
+    [
+     "2022",
+     "1.0984",
+     "1.0146",
+     "1.1892",
+     "0.0000",
+     "0.0000",
+     "0.1422",
+     "-1.1694",
+     "1.2340",
+     "0.1291"
+    ],
+    [
+     "2023",
+     "1.0754",
+     "0.9897",
+     "1.1686",
+     "0.0008",
+     "0.0483",
+     "0.0652",
+     "0.7589",
+     "0.5530",
+     "0.0552"
+    ],
+    [
+     "2024",
+     "1.0657",
+     "0.9875",
+     "1.1501",
+     "0.0000",
+     "0.0000",
+     "0.2769",
+     "1.4705",
+     "1.8809",
+     "0.2452"
+    ],
+    [
+     "2025",
+     "1.0788",
+     "0.9899",
+     "1.1758",
+     "0.0015",
+     "0.0940",
+     "0.0257",
+     "0.4049",
+     "0.1647",
+     "0.0201"
+    ],
+    [
+     "2026",
+     "1.1039",
+     "1.0247",
+     "1.1892",
+     "0.0000",
+     "0.0000",
+     "0.2756",
+     "-1.5506",
+     "2.1164",
+     "0.2473"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s5b": {
+   "title": "Table S5b. Cumulative meta-analysis by call year.",
+   "columns": [
+    "through_call",
+    "k",
+    "OR",
+    "OR_lo",
+    "OR_hi",
+    "tau2"
+   ],
+   "rows": [
+    [
+     "2017",
+     "1",
+     "1.1806",
+     "0.9538",
+     "1.4612",
+     "0.0000"
+    ],
+    [
+     "2018",
+     "2",
+     "1.1534",
+     "0.9916",
+     "1.3415",
+     "0.0000"
+    ],
+    [
+     "2019",
+     "3",
+     "1.0866",
+     "0.8345",
+     "1.4150",
+     "0.0000"
+    ],
+    [
+     "2020",
+     "4",
+     "1.0618",
+     "0.9097",
+     "1.2395",
+     "0.0000"
+    ],
+    [
+     "2021",
+     "5",
+     "1.0831",
+     "0.9630",
+     "1.2183",
+     "0.0000"
+    ],
+    [
+     "2022",
+     "6",
+     "1.0621",
+     "0.9585",
+     "1.1768",
+     "0.0000"
+    ],
+    [
+     "2023",
+     "7",
+     "1.0774",
+     "0.9846",
+     "1.1789",
+     "0.0000"
+    ],
+    [
+     "2024",
+     "8",
+     "1.1002",
+     "1.0087",
+     "1.2001",
+     "0.0000"
+    ],
+    [
+     "2025",
+     "9",
+     "1.1039",
+     "1.0247",
+     "1.1892",
+     "0.0000"
+    ],
+    [
+     "2026",
+     "10",
+     "1.0846",
+     "1.0054",
+     "1.1701",
+     "0.0002"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s6": {
+   "title": "Table S6. Bayesian analyses under alternative priors (normal-normal and exact-conditional models).",
+   "columns": [
+    "model",
+    "prior",
+    "OR_mean",
+    "OR_median",
+    "OR_lo",
+    "OR_hi",
+    "tau_median",
+    "tau_hi",
+    "P_OR_lt_1",
+    "P_ROPE",
+    "P_OR_gt_1p10",
+    "P_OR_lt_0p91",
+    "BF10",
+    "BF01",
+    "pred_OR_lo",
+    "pred_OR_hi"
+   ],
+   "rows": [
+    [
+     "NN",
+     "weakly informative (mu~N(0,1), tau~HN(0.5))",
+     "1.084",
+     "1.081",
+     "0.997",
+     "1.172",
+     "0.048",
+     "0.169",
+     "0.023",
+     "0.667",
+     "0.333",
+     "0.000",
+     "0.317",
+     "3.158",
+     "0.901",
+     "1.295"
+    ],
+    [
+     "NN",
+     "sceptical (mu~N(0,0.2), tau~HN(0.5))",
+     "1.081",
+     "1.078",
+     "0.995",
+     "1.166",
+     "0.048",
+     "0.168",
+     "0.025",
+     "0.697",
+     "0.303",
+     "0.000",
+     "1.440",
+     "0.694",
+     "0.899",
+     "1.287"
+    ],
+    [
+     "NN",
+     "strong shrinkage (mu~N(0,1), tau~HN(0.1))",
+     "1.084",
+     "1.081",
+     "1.002",
+     "1.166",
+     "0.038",
+     "0.131",
+     "0.017",
+     "0.672",
+     "0.327",
+     "0.000",
+     "0.366",
+     "2.729",
+     "0.931",
+     "1.255"
+    ],
+    [
+     "HN (exact conditional)",
+     "weakly informative (mu~N(0,1), tau~HN(0.5))",
+     "1.083",
+     "1.081",
+     "0.996",
+     "1.172",
+     "0.049",
+     "0.170",
+     "0.024",
+     "0.673",
+     "0.327",
+     "0.000",
+     "0.306",
+     "3.263",
+     "0.901",
+     "1.294"
+    ],
+    [
+     "HN (exact conditional)",
+     "sceptical (mu~N(0,0.2), tau~HN(0.5))",
+     "1.080",
+     "1.077",
+     "0.994",
+     "1.165",
+     "0.048",
+     "0.168",
+     "0.026",
+     "0.703",
+     "0.297",
+     "0.000",
+     "1.396",
+     "0.717",
+     "0.898",
+     "1.286"
+    ],
+    [
+     "HN (exact conditional)",
+     "strong shrinkage (mu~N(0,1), tau~HN(0.1))",
+     "1.083",
+     "1.081",
+     "1.001",
+     "1.166",
+     "0.038",
+     "0.131",
+     "0.017",
+     "0.679",
+     "0.321",
+     "0.000",
+     "0.353",
+     "2.833",
+     "0.930",
+     "1.254"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s6b": {
+   "title": "Table S6b. Historical power-prior sensitivity.",
+   "columns": [
+    "a0",
+    "OR_median",
+    "lo",
+    "hi",
+    "P_OR_lt_1"
+   ],
+   "rows": [
+    [
+     "0.000",
+     "1.081",
+     "0.996",
+     "1.172",
+     "0.024"
+    ],
+    [
+     "0.050",
+     "1.070",
+     "0.983",
+     "1.155",
+     "0.042"
+    ],
+    [
+     "0.100",
+     "1.059",
+     "0.970",
+     "1.142",
+     "0.069"
+    ],
+    [
+     "0.250",
+     "1.029",
+     "0.916",
+     "1.109",
+     "0.229"
+    ],
+    [
+     "0.500",
+     "0.963",
+     "0.816",
+     "1.059",
+     "0.705"
+    ],
+    [
+     "1.000",
+     "0.850",
+     "0.762",
+     "0.952",
+     "0.997"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s7": {
+   "title": "Table S7. Probabilistic bias analysis.",
+   "columns": [
+    "analysis",
+    "error",
+    "median",
+    "lo",
+    "hi",
+    "p_below_1"
+   ],
+   "rows": [
+    [
+     "denominator rounding only",
+     "systematic",
+     "1.0844",
+     "1.0751",
+     "1.0939",
+     "0.0000"
+    ],
+    [
+     "denominator rounding only",
+     "systematic+random",
+     "1.0835",
+     "1.0131",
+     "1.1589",
+     "0.0088"
+    ],
+    [
+     "rounding + domain composition",
+     "systematic",
+     "1.0847",
+     "1.0751",
+     "1.0944",
+     "0.0000"
+    ],
+    [
+     "rounding + domain composition",
+     "systematic+random",
+     "1.0848",
+     "1.0115",
+     "1.1610",
+     "0.0114"
+    ],
+    [
+     "conventional REML/HKSJ",
+     "random",
+     "1.0846",
+     "1.0054",
+     "1.1701",
+     "\u2013"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s8": {
+   "title": "Table S8. Self-selection sensitivity model (\u03b4 in steps of 0.05 SD).",
+   "columns": [
+    "rho",
+    "delta",
+    "or_fair",
+    "implied_eval_or"
+   ],
+   "rows": [
+    [
+     "1.000",
+     "0.000",
+     "1.000",
+     "1.085"
+    ],
+    [
+     "1.000",
+     "0.050",
+     "1.099",
+     "0.987"
+    ],
+    [
+     "1.000",
+     "0.100",
+     "1.207",
+     "0.898"
+    ],
+    [
+     "1.000",
+     "0.150",
+     "1.326",
+     "0.818"
+    ],
+    [
+     "1.000",
+     "0.200",
+     "1.457",
+     "0.745"
+    ],
+    [
+     "1.000",
+     "0.250",
+     "1.600",
+     "0.678"
+    ],
+    [
+     "1.000",
+     "0.300",
+     "1.758",
+     "0.617"
+    ],
+    [
+     "1.000",
+     "0.350",
+     "1.931",
+     "0.562"
+    ],
+    [
+     "1.000",
+     "0.400",
+     "2.122",
+     "0.511"
+    ],
+    [
+     "1.000",
+     "0.450",
+     "2.332",
+     "0.465"
+    ],
+    [
+     "1.000",
+     "0.500",
+     "2.564",
+     "0.423"
+    ],
+    [
+     "0.700",
+     "0.000",
+     "1.000",
+     "1.085"
+    ],
+    [
+     "0.700",
+     "0.050",
+     "1.082",
+     "1.002"
+    ],
+    [
+     "0.700",
+     "0.100",
+     "1.171",
+     "0.926"
+    ],
+    [
+     "0.700",
+     "0.150",
+     "1.266",
+     "0.856"
+    ],
+    [
+     "0.700",
+     "0.200",
+     "1.370",
+     "0.792"
+    ],
+    [
+     "0.700",
+     "0.250",
+     "1.482",
+     "0.732"
+    ],
+    [
+     "0.700",
+     "0.300",
+     "1.603",
+     "0.677"
+    ],
+    [
+     "0.700",
+     "0.350",
+     "1.734",
+     "0.625"
+    ],
+    [
+     "0.700",
+     "0.400",
+     "1.876",
+     "0.578"
+    ],
+    [
+     "0.700",
+     "0.450",
+     "2.030",
+     "0.534"
+    ],
+    [
+     "0.700",
+     "0.500",
+     "2.196",
+     "0.494"
+    ],
+    [
+     "0.500",
+     "0.000",
+     "1.000",
+     "1.085"
+    ],
+    [
+     "0.500",
+     "0.050",
+     "1.069",
+     "1.015"
+    ],
+    [
+     "0.500",
+     "0.100",
+     "1.143",
+     "0.949"
+    ],
+    [
+     "0.500",
+     "0.150",
+     "1.221",
+     "0.888"
+    ],
+    [
+     "0.500",
+     "0.200",
+     "1.305",
+     "0.831"
+    ],
+    [
+     "0.500",
+     "0.250",
+     "1.395",
+     "0.778"
+    ],
+    [
+     "0.500",
+     "0.300",
+     "1.490",
+     "0.728"
+    ],
+    [
+     "0.500",
+     "0.350",
+     "1.592",
+     "0.681"
+    ],
+    [
+     "0.500",
+     "0.400",
+     "1.702",
+     "0.637"
+    ],
+    [
+     "0.500",
+     "0.450",
+     "1.819",
+     "0.596"
+    ],
+    [
+     "0.500",
+     "0.500",
+     "1.944",
+     "0.558"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s9": {
+   "title": "Table S9. Sensitivity analyses (pooled OR, women vs men).",
+   "columns": [
+    "Analysis",
+    "Estimate",
+    "Lower",
+    "Upper",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "exclude_nonbinary_from_denominator",
+     "1.084",
+     "1.005",
+     "1.170",
+     "p = 0.0392; tau2 = 0.00024; I2 = 0.3%"
+    ],
+    [
+     "updated_2023_reserve_list_counts",
+     "1.088",
+     "1.006",
+     "1.176",
+     "p = 0.0373; tau2 = 0.00083; I2 = 6.0%"
+    ],
+    [
+     "extended_2015_2026_imputed_MC",
+     "1.036",
+     "0.954",
+     "1.123",
+     "tau2 median 0.0086; I2 median 41.5% (97.5th pct 57.2%)"
+    ],
+    [
+     "extended_point_imputation",
+     "1.036",
+     "0.951",
+     "1.129",
+     "p = 0.3863; tau2 = 0.00755; I2 = 39.3%"
+    ],
+    [
+     "extended_trend",
+     "+0.0146/yr",
+     "",
+     "",
+     "SE 0.0100; KH p = 0.172; permutation p = 0.163; OR ratio per decade 1.157"
+    ],
+    [
+     "fp7_comparator_OR_range",
+     "0.783",
+     "0.691",
+     "0.885",
+     "rounding range of the published rates"
+    ],
+    [
+     "stg_2007_2016_share_based_OR",
+     "0.823",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "note": "",
+   "widths": [
+    26,
+    8,
+    8,
+    8,
+    40
+   ]
+  },
+  "s10": {
+   "title": "Table S10. Counterfactual grant gap (women funded minus expected at men's success rate).",
+   "columns": [
+    "year",
+    "women_funded",
+    "expected_if_men_rate",
+    "excess",
+    "excess_lo",
+    "excess_hi"
+   ],
+   "rows": [
+    [
+     "2017",
+     "164.0",
+     "142.0",
+     "22.0",
+     "-6.7",
+     "50.6"
+    ],
+    [
+     "2018",
+     "159.0",
+     "143.3",
+     "15.7",
+     "-12.8",
+     "44.2"
+    ],
+    [
+     "2019",
+     "154.0",
+     "159.0",
+     "-5.0",
+     "-34.2",
+     "24.1"
+    ],
+    [
+     "2020",
+     "163.0",
+     "163.8",
+     "-0.8",
+     "-30.3",
+     "28.7"
+    ],
+    [
+     "2021",
+     "170.0",
+     "147.5",
+     "22.5",
+     "-7.9",
+     "52.8"
+    ],
+    [
+     "2022",
+     "161.0",
+     "166.7",
+     "-5.7",
+     "-35.8",
+     "24.5"
+    ],
+    [
+     "2023",
+     "171.0",
+     "148.9",
+     "22.1",
+     "-7.4",
+     "51.7"
+    ],
+    [
+     "2024",
+     "216.0",
+     "179.5",
+     "36.5",
+     "3.5",
+     "69.5"
+    ],
+    [
+     "2025",
+     "201.0",
+     "180.6",
+     "20.4",
+     "-12.5",
+     "53.3"
+    ],
+    [
+     "2026",
+     "172.0",
+     "183.3",
+     "-11.3",
+     "-44.2",
+     "21.5"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s11": {
+   "title": "Table S11. Widening-country share of grants and concentration indices per call.",
+   "columns": [
+    "year",
+    "grants_total",
+    "grants_widening",
+    "share",
+    "lo",
+    "hi",
+    "n_countries",
+    "gini",
+    "hhi",
+    "top3",
+    "top5"
+   ],
+   "rows": [
+    [
+     "2013",
+     "287.000",
+     "13.000",
+     "0.045",
+     "0.024",
+     "0.076",
+     "22.000",
+     "0.601",
+     "0.113",
+     "0.481",
+     "0.672"
+    ],
+    [
+     "2015",
+     "350.000",
+     "16.000",
+     "0.046",
+     "0.026",
+     "0.073",
+     "23.000",
+     "0.569",
+     "0.098",
+     "0.434",
+     "0.620"
+    ],
+    [
+     "2016",
+     "390.000",
+     "17.000",
+     "0.044",
+     "0.026",
+     "0.069",
+     "24.000",
+     "0.609",
+     "0.109",
+     "0.503",
+     "0.651"
+    ],
+    [
+     "2017",
+     "406.000",
+     "12.000",
+     "0.030",
+     "0.015",
+     "0.051",
+     "23.000",
+     "0.596",
+     "0.107",
+     "0.490",
+     "0.645"
+    ],
+    [
+     "2018",
+     "403.000",
+     "17.000",
+     "0.042",
+     "0.025",
+     "0.067",
+     "22.000",
+     "0.539",
+     "0.101",
+     "0.469",
+     "0.615"
+    ],
+    [
+     "2019",
+     "408.000",
+     "12.000",
+     "0.029",
+     "0.015",
+     "0.051",
+     "24.000",
+     "0.615",
+     "0.105",
+     "0.466",
+     "0.649"
+    ],
+    [
+     "2020",
+     "436.000",
+     "17.000",
+     "0.039",
+     "0.023",
+     "0.062",
+     "25.000",
+     "0.593",
+     "0.099",
+     "0.440",
+     "0.606"
+    ],
+    [
+     "2021",
+     "397.000",
+     "19.000",
+     "0.048",
+     "0.029",
+     "0.074",
+     "22.000",
+     "0.540",
+     "0.097",
+     "0.431",
+     "0.612"
+    ],
+    [
+     "2024",
+     "494.000",
+     "18.000",
+     "0.036",
+     "0.022",
+     "0.057",
+     "24.000",
+     "0.571",
+     "0.095",
+     "0.403",
+     "0.585"
+    ],
+    [
+     "2025",
+     "478.000",
+     "25.000",
+     "0.052",
+     "0.034",
+     "0.076",
+     "25.000",
+     "0.582",
+     "0.097",
+     "0.425",
+     "0.584"
+    ],
+    [
+     "2026",
+     "421.000",
+     "20.000",
+     "0.048",
+     "0.029",
+     "0.072",
+     "25.000",
+     "0.568",
+     "0.095",
+     "0.413",
+     "0.577"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s11b": {
+   "title": "Table S11b. Share of grants hosted by selected countries, per call.",
+   "columns": [
+    "year",
+    "CH",
+    "DE",
+    "ES",
+    "FR",
+    "IL",
+    "IT",
+    "NL",
+    "UK"
+   ],
+   "rows": [
+    [
+     "2013",
+     "0.073",
+     "0.160",
+     "0.049",
+     "0.101",
+     "0.112",
+     "0.028",
+     "0.091",
+     "0.209"
+    ],
+    [
+     "2015",
+     "0.080",
+     "0.151",
+     "0.037",
+     "0.100",
+     "0.086",
+     "0.063",
+     "0.109",
+     "0.174"
+    ],
+    [
+     "2016",
+     "0.061",
+     "0.195",
+     "0.054",
+     "0.136",
+     "0.036",
+     "0.033",
+     "0.087",
+     "0.172"
+    ],
+    [
+     "2017",
+     "0.052",
+     "0.165",
+     "0.054",
+     "0.131",
+     "0.069",
+     "0.047",
+     "0.086",
+     "0.195"
+    ],
+    [
+     "2018",
+     "0.047",
+     "0.189",
+     "0.045",
+     "0.092",
+     "0.055",
+     "0.037",
+     "0.114",
+     "0.166"
+    ],
+    [
+     "2019",
+     "0.076",
+     "0.179",
+     "0.049",
+     "0.101",
+     "0.083",
+     "0.044",
+     "0.130",
+     "0.157"
+    ],
+    [
+     "2020",
+     "0.078",
+     "0.202",
+     "0.053",
+     "0.087",
+     "0.053",
+     "0.046",
+     "0.096",
+     "0.142"
+    ],
+    [
+     "2021",
+     "0.070",
+     "0.181",
+     "0.058",
+     "0.134",
+     "0.048",
+     "0.070",
+     "0.111",
+     "0.116"
+    ],
+    [
+     "2024",
+     "0.000",
+     "0.198",
+     "0.067",
+     "0.099",
+     "0.061",
+     "0.083",
+     "0.103",
+     "0.101"
+    ],
+    [
+     "2025",
+     "0.073",
+     "0.207",
+     "0.059",
+     "0.086",
+     "0.021",
+     "0.063",
+     "0.092",
+     "0.126"
+    ],
+    [
+     "2026",
+     "0.086",
+     "0.211",
+     "0.045",
+     "0.090",
+     "0.026",
+     "0.052",
+     "0.078",
+     "0.112"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s11c": {
+   "title": "Table S11c. Grants that would have to move to widening hosts for parity with assumed applicant shares.",
+   "columns": [
+    "applicant_share",
+    "mean_extra_grants_per_call",
+    "share_of_all_grants",
+    "total_extra_grants_10_calls"
+   ],
+   "rows": [
+    [
+     "0.10",
+     "23.73",
+     "0.06",
+     "261.00"
+    ],
+    [
+     "0.12",
+     "33.89",
+     "0.08",
+     "372.75"
+    ],
+    [
+     "0.15",
+     "44.05",
+     "0.11",
+     "484.50"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s12": {
+   "title": "Table S12. Competition series 2007\u20132026.",
+   "columns": [
+    "year",
+    "apps",
+    "grants",
+    "budget_meur",
+    "status",
+    "sr",
+    "sr_lo",
+    "sr_hi"
+   ],
+   "rows": [
+    [
+     "2007",
+     "9167",
+     "299",
+     "\u2013",
+     "recalled grants",
+     "0.033",
+     "0.029",
+     "0.036"
+    ],
+    [
+     "2009",
+     "2503",
+     "244",
+     "\u2013",
+     "recalled grants",
+     "0.098",
+     "0.086",
+     "0.110"
+    ],
+    [
+     "2010",
+     "2873",
+     "427",
+     "\u2013",
+     "recalled grants",
+     "0.149",
+     "0.136",
+     "0.162"
+    ],
+    [
+     "2011",
+     "4080",
+     "480",
+     "\u2013",
+     "recalled grants",
+     "0.118",
+     "0.108",
+     "0.128"
+    ],
+    [
+     "2012",
+     "4741",
+     "536",
+     "\u2013",
+     "recalled grants",
+     "0.113",
+     "0.104",
+     "0.122"
+    ],
+    [
+     "2013",
+     "3329",
+     "287",
+     "\u2013",
+     "verified (statistics PDF)",
+     "0.086",
+     "0.077",
+     "0.096"
+    ],
+    [
+     "2014",
+     "3273",
+     "328",
+     "\u2013",
+     "recalled (initial selection; 375 incl. reserve list)",
+     "0.100",
+     "0.090",
+     "0.111"
+    ],
+    [
+     "2015",
+     "2920",
+     "350",
+     "\u2013",
+     "verified (statistics PDF, incl. reserve list)",
+     "0.120",
+     "0.109",
+     "0.132"
+    ],
+    [
+     "2016",
+     "2935",
+     "390",
+     "\u2013",
+     "verified (statistics PDF, incl. reserve list)",
+     "0.133",
+     "0.121",
+     "0.146"
+    ],
+    [
+     "2017",
+     "3085",
+     "406",
+     "605.000",
+     "verified",
+     "0.132",
+     "0.120",
+     "0.144"
+    ],
+    [
+     "2018",
+     "3170",
+     "403",
+     "603.000",
+     "verified",
+     "0.127",
+     "0.116",
+     "0.139"
+    ],
+    [
+     "2019",
+     "3106",
+     "408",
+     "621.000",
+     "verified",
+     "0.131",
+     "0.120",
+     "0.144"
+    ],
+    [
+     "2020",
+     "3272",
+     "436",
+     "677.000",
+     "verified (budget: ERC facts & figures 2020)",
+     "0.133",
+     "0.122",
+     "0.145"
+    ],
+    [
+     "2021",
+     "4066",
+     "397",
+     "619.000",
+     "verified (initial selection; 471 incl. reserve list)",
+     "0.098",
+     "0.089",
+     "0.107"
+    ],
+    [
+     "2022",
+     "2932",
+     "408",
+     "636.000",
+     "verified",
+     "0.139",
+     "0.127",
+     "0.152"
+    ],
+    [
+     "2023",
+     "2696",
+     "400",
+     "628.000",
+     "verified",
+     "0.148",
+     "0.136",
+     "0.162"
+    ],
+    [
+     "2024",
+     "3474",
+     "494",
+     "780.000",
+     "verified",
+     "0.142",
+     "0.131",
+     "0.154"
+    ],
+    [
+     "2025",
+     "3928",
+     "478",
+     "761.000",
+     "verified",
+     "0.122",
+     "0.112",
+     "0.132"
+    ],
+    [
+     "2026",
+     "4807",
+     "421",
+     "705.000",
+     "verified (budget: ERC results release, Sep 2026)",
+     "0.088",
+     "0.080",
+     "0.096"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s12b": {
+   "title": "Table S12b. Decomposition of consecutive changes in the success rate.",
+   "columns": [
+    "year",
+    "apps",
+    "grants",
+    "sr",
+    "dlogN",
+    "dlogG",
+    "dlogSR",
+    "demand_share_of_change"
+   ],
+   "rows": [
+    [
+     "2009",
+     "2,503",
+     "244.000",
+     "0.098",
+     "-1.298",
+     "-0.203",
+     "1.095",
+     "1.186"
+    ],
+    [
+     "2010",
+     "2,873",
+     "427.000",
+     "0.149",
+     "0.138",
+     "0.560",
+     "0.422",
+     "-0.327"
+    ],
+    [
+     "2011",
+     "4,080",
+     "480.000",
+     "0.118",
+     "0.351",
+     "0.117",
+     "-0.234",
+     "1.501"
+    ],
+    [
+     "2012",
+     "4,741",
+     "536.000",
+     "0.113",
+     "0.150",
+     "0.110",
+     "-0.040",
+     "3.772"
+    ],
+    [
+     "2013",
+     "3,329",
+     "287.000",
+     "0.086",
+     "-0.354",
+     "-0.625",
+     "-0.271",
+     "-1.304"
+    ],
+    [
+     "2014",
+     "3,273",
+     "328.000",
+     "0.100",
+     "-0.017",
+     "0.134",
+     "0.150",
+     "0.113"
+    ],
+    [
+     "2015",
+     "2,920",
+     "350.000",
+     "0.120",
+     "-0.114",
+     "0.065",
+     "0.179",
+     "0.637"
+    ],
+    [
+     "2016",
+     "2,935",
+     "390.000",
+     "0.133",
+     "0.005",
+     "0.108",
+     "0.103",
+     "-0.050"
+    ],
+    [
+     "2017",
+     "3,085",
+     "406.000",
+     "0.132",
+     "0.050",
+     "0.040",
+     "-0.010",
+     "5.172"
+    ],
+    [
+     "2018",
+     "3,170",
+     "403.000",
+     "0.127",
+     "0.027",
+     "-0.007",
+     "-0.035",
+     "0.786"
+    ],
+    [
+     "2019",
+     "3,106",
+     "408.000",
+     "0.131",
+     "-0.020",
+     "0.012",
+     "0.033",
+     "0.623"
+    ],
+    [
+     "2020",
+     "3,272",
+     "436.000",
+     "0.133",
+     "0.052",
+     "0.066",
+     "0.014",
+     "-3.639"
+    ],
+    [
+     "2021",
+     "4,066",
+     "397.000",
+     "0.098",
+     "0.217",
+     "-0.094",
+     "-0.311",
+     "0.699"
+    ],
+    [
+     "2022",
+     "2,932",
+     "408.000",
+     "0.139",
+     "-0.327",
+     "0.027",
+     "0.354",
+     "0.923"
+    ],
+    [
+     "2023",
+     "2,696",
+     "400.000",
+     "0.148",
+     "-0.084",
+     "-0.020",
+     "0.064",
+     "1.309"
+    ],
+    [
+     "2024",
+     "3,474",
+     "494.000",
+     "0.142",
+     "0.254",
+     "0.211",
+     "-0.043",
+     "5.970"
+    ],
+    [
+     "2025",
+     "3,928",
+     "478.000",
+     "0.122",
+     "0.123",
+     "-0.033",
+     "-0.156",
+     "0.789"
+    ],
+    [
+     "2026",
+     "4,807",
+     "421.000",
+     "0.088",
+     "0.202",
+     "-0.127",
+     "-0.329",
+     "0.614"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s12c": {
+   "title": "Table S12c. Application-cost accounting per call.",
+   "columns": [
+    "year",
+    "days_per_proposal",
+    "applicant_person_years",
+    "person_years_per_grant",
+    "funded_pi_years",
+    "tax_ratio"
+   ],
+   "rows": [
+    [
+     "2007",
+     "20.00",
+     "833.36",
+     "2.79",
+     "1,495",
+     "0.56"
+    ],
+    [
+     "2007",
+     "34.00",
+     "1416.72",
+     "4.74",
+     "1,495",
+     "0.95"
+    ],
+    [
+     "2007",
+     "50.00",
+     "2083.41",
+     "6.97",
+     "1,495",
+     "1.39"
+    ],
+    [
+     "2009",
+     "20.00",
+     "227.54",
+     "0.93",
+     "1,220",
+     "0.19"
+    ],
+    [
+     "2009",
+     "34.00",
+     "386.83",
+     "1.58",
+     "1,220",
+     "0.32"
+    ],
+    [
+     "2009",
+     "50.00",
+     "568.86",
+     "2.33",
+     "1,220",
+     "0.47"
+    ],
+    [
+     "2010",
+     "20.00",
+     "261.18",
+     "0.61",
+     "2,135",
+     "0.12"
+    ],
+    [
+     "2010",
+     "34.00",
+     "444.01",
+     "1.04",
+     "2,135",
+     "0.21"
+    ],
+    [
+     "2010",
+     "50.00",
+     "652.96",
+     "1.53",
+     "2,135",
+     "0.31"
+    ],
+    [
+     "2011",
+     "20.00",
+     "370.91",
+     "0.77",
+     "2,400",
+     "0.15"
+    ],
+    [
+     "2011",
+     "34.00",
+     "630.54",
+     "1.31",
+     "2,400",
+     "0.26"
+    ],
+    [
+     "2011",
+     "50.00",
+     "927.27",
+     "1.93",
+     "2,400",
+     "0.39"
+    ],
+    [
+     "2012",
+     "20.00",
+     "431.00",
+     "0.80",
+     "2,680",
+     "0.16"
+    ],
+    [
+     "2012",
+     "34.00",
+     "732.70",
+     "1.37",
+     "2,680",
+     "0.27"
+    ],
+    [
+     "2012",
+     "50.00",
+     "1077.50",
+     "2.01",
+     "2,680",
+     "0.40"
+    ],
+    [
+     "2013",
+     "20.00",
+     "302.64",
+     "1.05",
+     "1,435",
+     "0.21"
+    ],
+    [
+     "2013",
+     "34.00",
+     "514.48",
+     "1.79",
+     "1,435",
+     "0.36"
+    ],
+    [
+     "2013",
+     "50.00",
+     "756.59",
+     "2.64",
+     "1,435",
+     "0.53"
+    ],
+    [
+     "2014",
+     "20.00",
+     "297.55",
+     "0.91",
+     "1,640",
+     "0.18"
+    ],
+    [
+     "2014",
+     "34.00",
+     "505.83",
+     "1.54",
+     "1,640",
+     "0.31"
+    ],
+    [
+     "2014",
+     "50.00",
+     "743.86",
+     "2.27",
+     "1,640",
+     "0.45"
+    ],
+    [
+     "2015",
+     "20.00",
+     "265.45",
+     "0.76",
+     "1,750",
+     "0.15"
+    ],
+    [
+     "2015",
+     "34.00",
+     "451.27",
+     "1.29",
+     "1,750",
+     "0.26"
+    ],
+    [
+     "2015",
+     "50.00",
+     "663.64",
+     "1.90",
+     "1,750",
+     "0.38"
+    ],
+    [
+     "2016",
+     "20.00",
+     "266.82",
+     "0.68",
+     "1,950",
+     "0.14"
+    ],
+    [
+     "2016",
+     "34.00",
+     "453.59",
+     "1.16",
+     "1,950",
+     "0.23"
+    ],
+    [
+     "2016",
+     "50.00",
+     "667.04",
+     "1.71",
+     "1,950",
+     "0.34"
+    ],
+    [
+     "2017",
+     "20.00",
+     "280.45",
+     "0.69",
+     "2,030",
+     "0.14"
+    ],
+    [
+     "2017",
+     "34.00",
+     "476.77",
+     "1.17",
+     "2,030",
+     "0.23"
+    ],
+    [
+     "2017",
+     "50.00",
+     "701.14",
+     "1.73",
+     "2,030",
+     "0.34"
+    ],
+    [
+     "2018",
+     "20.00",
+     "288.18",
+     "0.71",
+     "2,015",
+     "0.14"
+    ],
+    [
+     "2018",
+     "34.00",
+     "489.91",
+     "1.22",
+     "2,015",
+     "0.24"
+    ],
+    [
+     "2018",
+     "50.00",
+     "720.46",
+     "1.79",
+     "2,015",
+     "0.36"
+    ],
+    [
+     "2019",
+     "20.00",
+     "282.36",
+     "0.69",
+     "2,040",
+     "0.14"
+    ],
+    [
+     "2019",
+     "34.00",
+     "480.02",
+     "1.18",
+     "2,040",
+     "0.23"
+    ],
+    [
+     "2019",
+     "50.00",
+     "705.91",
+     "1.73",
+     "2,040",
+     "0.35"
+    ],
+    [
+     "2020",
+     "20.00",
+     "297.45",
+     "0.68",
+     "2,180",
+     "0.14"
+    ],
+    [
+     "2020",
+     "34.00",
+     "505.67",
+     "1.16",
+     "2,180",
+     "0.23"
+    ],
+    [
+     "2020",
+     "50.00",
+     "743.64",
+     "1.71",
+     "2,180",
+     "0.34"
+    ],
+    [
+     "2021",
+     "20.00",
+     "369.64",
+     "0.93",
+     "1,985",
+     "0.19"
+    ],
+    [
+     "2021",
+     "34.00",
+     "628.38",
+     "1.58",
+     "1,985",
+     "0.32"
+    ],
+    [
+     "2021",
+     "50.00",
+     "924.09",
+     "2.33",
+     "1,985",
+     "0.47"
+    ],
+    [
+     "2022",
+     "20.00",
+     "266.55",
+     "0.65",
+     "2,040",
+     "0.13"
+    ],
+    [
+     "2022",
+     "34.00",
+     "453.13",
+     "1.11",
+     "2,040",
+     "0.22"
+    ],
+    [
+     "2022",
+     "50.00",
+     "666.36",
+     "1.63",
+     "2,040",
+     "0.33"
+    ],
+    [
+     "2023",
+     "20.00",
+     "245.09",
+     "0.61",
+     "2,000",
+     "0.12"
+    ],
+    [
+     "2023",
+     "34.00",
+     "416.65",
+     "1.04",
+     "2,000",
+     "0.21"
+    ],
+    [
+     "2023",
+     "50.00",
+     "612.73",
+     "1.53",
+     "2,000",
+     "0.31"
+    ],
+    [
+     "2024",
+     "20.00",
+     "315.82",
+     "0.64",
+     "2,470",
+     "0.13"
+    ],
+    [
+     "2024",
+     "34.00",
+     "536.89",
+     "1.09",
+     "2,470",
+     "0.22"
+    ],
+    [
+     "2024",
+     "50.00",
+     "789.54",
+     "1.60",
+     "2,470",
+     "0.32"
+    ],
+    [
+     "2025",
+     "20.00",
+     "357.09",
+     "0.75",
+     "2,390",
+     "0.15"
+    ],
+    [
+     "2025",
+     "34.00",
+     "607.05",
+     "1.27",
+     "2,390",
+     "0.25"
+    ],
+    [
+     "2025",
+     "50.00",
+     "892.73",
+     "1.87",
+     "2,390",
+     "0.37"
+    ],
+    [
+     "2026",
+     "20.00",
+     "437.00",
+     "1.04",
+     "2,105",
+     "0.21"
+    ],
+    [
+     "2026",
+     "34.00",
+     "742.90",
+     "1.76",
+     "2,105",
+     "0.35"
+    ],
+    [
+     "2026",
+     "50.00",
+     "1092.50",
+     "2.60",
+     "2,105",
+     "0.52"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s12d": {
+   "title": "Table S12d. Women's share of applicants and grantees and the representation gap.",
+   "columns": [
+    "year",
+    "applicant_share",
+    "grantee_share",
+    "gap_pp",
+    "gap_lo_pp",
+    "gap_hi_pp"
+   ],
+   "rows": [
+    [
+     "2017",
+     "0.370",
+     "0.404",
+     "3.394",
+     "-1.412",
+     "8.201"
+    ],
+    [
+     "2018",
+     "0.370",
+     "0.395",
+     "2.454",
+     "-2.351",
+     "7.259"
+    ],
+    [
+     "2019",
+     "0.385",
+     "0.378",
+     "-0.755",
+     "-5.492",
+     "3.983"
+    ],
+    [
+     "2020",
+     "0.375",
+     "0.374",
+     "-0.115",
+     "-4.691",
+     "4.462"
+    ],
+    [
+     "2021",
+     "0.395",
+     "0.429",
+     "3.429",
+     "-1.479",
+     "8.337"
+    ],
+    [
+     "2022",
+     "0.405",
+     "0.397",
+     "-0.845",
+     "-5.637",
+     "3.947"
+    ],
+    [
+     "2023",
+     "0.395",
+     "0.429",
+     "3.357",
+     "-1.532",
+     "8.246"
+    ],
+    [
+     "2024",
+     "0.395",
+     "0.440",
+     "4.492",
+     "0.065",
+     "8.919"
+    ],
+    [
+     "2025",
+     "0.400",
+     "0.426",
+     "2.585",
+     "-1.912",
+     "7.081"
+    ],
+    [
+     "2026",
+     "0.425",
+     "0.409",
+     "-1.548",
+     "-6.285",
+     "3.189"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s12e": {
+   "title": "Table S12e. Pairwise cohort odds ratios (row call vs column call).",
+   "columns": [
+    "call",
+    "2013",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "rows": [
+    [
+     "2013",
+     "1.00",
+     "0.69",
+     "0.62",
+     "0.62",
+     "0.65",
+     "0.62",
+     "0.61",
+     "0.87",
+     "0.58",
+     "0.54",
+     "0.57",
+     "0.68",
+     "0.98"
+    ],
+    [
+     "2015",
+     "1.44",
+     "1.00",
+     "0.89",
+     "0.90",
+     "0.94",
+     "0.90",
+     "0.89",
+     "1.26",
+     "0.84",
+     "0.78",
+     "0.82",
+     "0.98",
+     "1.42"
+    ],
+    [
+     "2016",
+     "1.62",
+     "1.12",
+     "1.00",
+     "1.01",
+     "1.05",
+     "1.01",
+     "1.00",
+     "1.42",
+     "0.95",
+     "0.88",
+     "0.92",
+     "1.11",
+     "1.60"
+    ],
+    [
+     "2017",
+     "1.61",
+     "1.11",
+     "0.99",
+     "1.00",
+     "1.04",
+     "1.00",
+     "0.99",
+     "1.40",
+     "0.94",
+     "0.87",
+     "0.91",
+     "1.09",
+     "1.58"
+    ],
+    [
+     "2018",
+     "1.54",
+     "1.07",
+     "0.95",
+     "0.96",
+     "1.00",
+     "0.96",
+     "0.95",
+     "1.35",
+     "0.90",
+     "0.84",
+     "0.88",
+     "1.05",
+     "1.52"
+    ],
+    [
+     "2019",
+     "1.60",
+     "1.11",
+     "0.99",
+     "1.00",
+     "1.04",
+     "1.00",
+     "0.98",
+     "1.40",
+     "0.94",
+     "0.87",
+     "0.91",
+     "1.09",
+     "1.57"
+    ],
+    [
+     "2020",
+     "1.63",
+     "1.13",
+     "1.00",
+     "1.01",
+     "1.06",
+     "1.02",
+     "1.00",
+     "1.42",
+     "0.95",
+     "0.88",
+     "0.93",
+     "1.11",
+     "1.60"
+    ],
+    [
+     "2021",
+     "1.15",
+     "0.80",
+     "0.71",
+     "0.71",
+     "0.74",
+     "0.72",
+     "0.70",
+     "1.00",
+     "0.67",
+     "0.62",
+     "0.65",
+     "0.78",
+     "1.13"
+    ],
+    [
+     "2022",
+     "1.71",
+     "1.19",
+     "1.05",
+     "1.07",
+     "1.11",
+     "1.07",
+     "1.05",
+     "1.49",
+     "1.00",
+     "0.93",
+     "0.97",
+     "1.17",
+     "1.68"
+    ],
+    [
+     "2023",
+     "1.85",
+     "1.28",
+     "1.14",
+     "1.15",
+     "1.20",
+     "1.15",
+     "1.13",
+     "1.61",
+     "1.08",
+     "1.00",
+     "1.05",
+     "1.26",
+     "1.81"
+    ],
+    [
+     "2024",
+     "1.76",
+     "1.22",
+     "1.08",
+     "1.09",
+     "1.14",
+     "1.10",
+     "1.08",
+     "1.53",
+     "1.03",
+     "0.95",
+     "1.00",
+     "1.20",
+     "1.73"
+    ],
+    [
+     "2025",
+     "1.47",
+     "1.02",
+     "0.90",
+     "0.91",
+     "0.95",
+     "0.92",
+     "0.90",
+     "1.28",
+     "0.86",
+     "0.80",
+     "0.84",
+     "1.00",
+     "1.44"
+    ],
+    [
+     "2026",
+     "1.02",
+     "0.70",
+     "0.63",
+     "0.63",
+     "0.66",
+     "0.64",
+     "0.62",
+     "0.89",
+     "0.59",
+     "0.55",
+     "0.58",
+     "0.69",
+     "1.00"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s13": {
+   "title": "Table S13. Within-call tests of domain neutrality.",
+   "columns": [
+    "year",
+    "chi2",
+    "p",
+    "sr_LS",
+    "sr_PE",
+    "sr_SH",
+    "max_min_ratio"
+   ],
+   "rows": [
+    [
+     "2013",
+     "5.831",
+     "0.054",
+     "0.101",
+     "0.085",
+     "0.069",
+     "1.462"
+    ],
+    [
+     "2015",
+     "0.495",
+     "0.781",
+     "0.121",
+     "0.123",
+     "0.113",
+     "1.093"
+    ],
+    [
+     "2016",
+     "3.140",
+     "0.208",
+     "0.139",
+     "0.140",
+     "0.114",
+     "1.222"
+    ],
+    [
+     "2017",
+     "0.235",
+     "0.889",
+     "0.135",
+     "0.132",
+     "0.127",
+     "1.061"
+    ],
+    [
+     "2018",
+     "0.025",
+     "0.988",
+     "0.129",
+     "0.127",
+     "0.126",
+     "1.018"
+    ],
+    [
+     "2019",
+     "0.019",
+     "0.990",
+     "0.133",
+     "0.131",
+     "0.131",
+     "1.016"
+    ],
+    [
+     "2020",
+     "0.034",
+     "0.983",
+     "0.134",
+     "0.132",
+     "0.134",
+     "1.018"
+    ],
+    [
+     "2021",
+     "0.105",
+     "0.949",
+     "0.100",
+     "0.098",
+     "0.096",
+     "1.042"
+    ],
+    [
+     "2022",
+     "0.258",
+     "0.879",
+     "0.144",
+     "0.137",
+     "0.137",
+     "1.054"
+    ],
+    [
+     "2023",
+     "0.157",
+     "0.925",
+     "0.150",
+     "0.150",
+     "0.144",
+     "1.043"
+    ],
+    [
+     "2024",
+     "0.887",
+     "0.642",
+     "0.147",
+     "0.145",
+     "0.134",
+     "1.100"
+    ],
+    [
+     "2025",
+     "0.132",
+     "0.936",
+     "0.125",
+     "0.120",
+     "0.121",
+     "1.038"
+    ],
+    [
+     "2026",
+     "0.157",
+     "0.924",
+     "0.090",
+     "0.086",
+     "0.088",
+     "1.045"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s13b": {
+   "title": "Table S13b. 2025 call: domain-specific gender ORs under scenarios for the within-domain applicant share.",
+   "columns": [
+    "scenario",
+    "domain",
+    "assumed_women_share",
+    "women_funded",
+    "men_funded",
+    "OR",
+    "lo",
+    "hi"
+   ],
+   "rows": [
+    [
+     "uniform (same share in every domain)",
+     "LS",
+     "0.400",
+     "55",
+     "79",
+     "1.051",
+     "0.728",
+     "1.517"
+    ],
+    [
+     "uniform (same share in every domain)",
+     "PE",
+     "0.400",
+     "64",
+     "133",
+     "0.692",
+     "0.504",
+     "0.949"
+    ],
+    [
+     "uniform (same share in every domain)",
+     "SH",
+     "0.400",
+     "82",
+     "59",
+     "2.311",
+     "1.617",
+     "3.303"
+    ],
+    [
+     "central (LS 1.15, PE 0.75, SH 1.30)",
+     "LS",
+     "0.447",
+     "55",
+     "79",
+     "0.843",
+     "0.584",
+     "1.216"
+    ],
+    [
+     "central (LS 1.15, PE 0.75, SH 1.30)",
+     "PE",
+     "0.292",
+     "64",
+     "133",
+     "1.194",
+     "0.868",
+     "1.643"
+    ],
+    [
+     "central (LS 1.15, PE 0.75, SH 1.30)",
+     "SH",
+     "0.506",
+     "82",
+     "59",
+     "1.415",
+     "0.992",
+     "2.021"
+    ],
+    [
+     "steep (LS 1.25, PE 0.65, SH 1.45)",
+     "LS",
+     "0.472",
+     "55",
+     "79",
+     "0.754",
+     "0.522",
+     "1.087"
+    ],
+    [
+     "steep (LS 1.25, PE 0.65, SH 1.45)",
+     "PE",
+     "0.245",
+     "64",
+     "133",
+     "1.572",
+     "1.139",
+     "2.169"
+    ],
+    [
+     "steep (LS 1.25, PE 0.65, SH 1.45)",
+     "SH",
+     "0.547",
+     "82",
+     "59",
+     "1.172",
+     "0.821",
+     "1.673"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s14": {
+   "title": "Table S14. Selection-mechanism simulation, full grid.",
+   "columns": [
+    "rho",
+    "mechanism",
+    "mean_merit_funded",
+    "merit_mc_se",
+    "share_true_topK_funded",
+    "share_true_top1pct_funded",
+    "subgroup_OR",
+    "subgroup_OR_sd",
+    "full_review_workload"
+   ],
+   "rows": [
+    [
+     "0.200",
+     "single-stage panel",
+     "0.663",
+     "0.003",
+     "0.323",
+     "0.509",
+     "0.842",
+     "0.086",
+     "3,500"
+    ],
+    [
+     "0.200",
+     "two-stage (ERC-like)",
+     "0.853",
+     "0.003",
+     "0.392",
+     "0.646",
+     "0.807",
+     "0.091",
+     "1,050"
+    ],
+    [
+     "0.200",
+     "threshold + lottery",
+     "0.495",
+     "0.003",
+     "0.261",
+     "0.354",
+     "0.875",
+     "0.089",
+     "858.000"
+    ],
+    [
+     "0.200",
+     "merit top-half + lottery",
+     "0.597",
+     "0.003",
+     "0.301",
+     "0.470",
+     "0.860",
+     "0.094",
+     "858.000"
+    ],
+    [
+     "0.200",
+     "pure lottery",
+     "-0.081",
+     "0.003",
+     "0.122",
+     "0.122",
+     "1.002",
+     "0.105",
+     "0.000"
+    ],
+    [
+     "0.300",
+     "single-stage panel",
+     "0.838",
+     "0.003",
+     "0.384",
+     "0.649",
+     "0.822",
+     "0.087",
+     "3,500"
+    ],
+    [
+     "0.300",
+     "two-stage (ERC-like)",
+     "1.033",
+     "0.003",
+     "0.466",
+     "0.779",
+     "0.784",
+     "0.078",
+     "1,050"
+    ],
+    [
+     "0.300",
+     "threshold + lottery",
+     "0.628",
+     "0.003",
+     "0.298",
+     "0.402",
+     "0.867",
+     "0.094",
+     "858.000"
+    ],
+    [
+     "0.300",
+     "merit top-half + lottery",
+     "0.756",
+     "0.003",
+     "0.353",
+     "0.584",
+     "0.835",
+     "0.087",
+     "858.000"
+    ],
+    [
+     "0.300",
+     "pure lottery",
+     "-0.076",
+     "0.003",
+     "0.124",
+     "0.128",
+     "1.009",
+     "0.106",
+     "0.000"
+    ],
+    [
+     "0.400",
+     "single-stage panel",
+     "0.975",
+     "0.003",
+     "0.443",
+     "0.743",
+     "0.794",
+     "0.091",
+     "3,500"
+    ],
+    [
+     "0.400",
+     "two-stage (ERC-like)",
+     "1.160",
+     "0.003",
+     "0.533",
+     "0.875",
+     "0.761",
+     "0.084",
+     "1,050"
+    ],
+    [
+     "0.400",
+     "threshold + lottery",
+     "0.738",
+     "0.003",
+     "0.334",
+     "0.447",
+     "0.840",
+     "0.092",
+     "858.000"
+    ],
+    [
+     "0.400",
+     "merit top-half + lottery",
+     "0.883",
+     "0.003",
+     "0.402",
+     "0.677",
+     "0.808",
+     "0.093",
+     "858.000"
+    ],
+    [
+     "0.400",
+     "pure lottery",
+     "-0.078",
+     "0.004",
+     "0.123",
+     "0.120",
+     "1.002",
+     "0.107",
+     "0.000"
+    ],
+    [
+     "0.500",
+     "single-stage panel",
+     "1.098",
+     "0.003",
+     "0.500",
+     "0.834",
+     "0.780",
+     "0.082",
+     "3,500"
+    ],
+    [
+     "0.500",
+     "two-stage (ERC-like)",
+     "1.269",
+     "0.003",
+     "0.596",
+     "0.939",
+     "0.753",
+     "0.084",
+     "1,050"
+    ],
+    [
+     "0.500",
+     "threshold + lottery",
+     "0.835",
+     "0.003",
+     "0.367",
+     "0.476",
+     "0.817",
+     "0.093",
+     "858.000"
+    ],
+    [
+     "0.500",
+     "merit top-half + lottery",
+     "0.999",
+     "0.003",
+     "0.451",
+     "0.766",
+     "0.789",
+     "0.082",
+     "858.000"
+    ],
+    [
+     "0.500",
+     "pure lottery",
+     "-0.078",
+     "0.004",
+     "0.122",
+     "0.126",
+     "1.006",
+     "0.103",
+     "0.000"
+    ],
+    [
+     "0.600",
+     "single-stage panel",
+     "1.214",
+     "0.003",
+     "0.565",
+     "0.904",
+     "0.749",
+     "0.077",
+     "3,500"
+    ],
+    [
+     "0.600",
+     "two-stage (ERC-like)",
+     "1.360",
+     "0.003",
+     "0.658",
+     "0.975",
+     "0.726",
+     "0.082",
+     "1,050"
+    ],
+    [
+     "0.600",
+     "threshold + lottery",
+     "0.920",
+     "0.003",
+     "0.398",
+     "0.478",
+     "0.807",
+     "0.086",
+     "858.000"
+    ],
+    [
+     "0.600",
+     "merit top-half + lottery",
+     "1.102",
+     "0.003",
+     "0.501",
+     "0.842",
+     "0.776",
+     "0.081",
+     "858.000"
+    ],
+    [
+     "0.600",
+     "pure lottery",
+     "-0.081",
+     "0.004",
+     "0.121",
+     "0.123",
+     "0.990",
+     "0.101",
+     "0.000"
+    ],
+    [
+     "0.700",
+     "single-stage panel",
+     "1.313",
+     "0.003",
+     "0.624",
+     "0.964",
+     "0.735",
+     "0.086",
+     "3,500"
+    ],
+    [
+     "0.700",
+     "two-stage (ERC-like)",
+     "1.429",
+     "0.003",
+     "0.714",
+     "0.995",
+     "0.723",
+     "0.079",
+     "1,050"
+    ],
+    [
+     "0.700",
+     "threshold + lottery",
+     "1.004",
+     "0.003",
+     "0.433",
+     "0.510",
+     "0.795",
+     "0.088",
+     "858.000"
+    ],
+    [
+     "0.700",
+     "merit top-half + lottery",
+     "1.191",
+     "0.003",
+     "0.545",
+     "0.907",
+     "0.756",
+     "0.088",
+     "858.000"
+    ],
+    [
+     "0.700",
+     "pure lottery",
+     "-0.083",
+     "0.004",
+     "0.121",
+     "0.121",
+     "1.012",
+     "0.112",
+     "0.000"
+    ],
+    [
+     "1.000",
+     "single-stage panel",
+     "1.584",
+     "0.002",
+     "1.000",
+     "1.000",
+     "0.696",
+     "0.072",
+     "3,500"
+    ],
+    [
+     "1.000",
+     "two-stage (ERC-like)",
+     "1.584",
+     "0.002",
+     "1.000",
+     "1.000",
+     "0.696",
+     "0.072",
+     "1,050"
+    ],
+    [
+     "1.000",
+     "threshold + lottery",
+     "1.207",
+     "0.002",
+     "0.499",
+     "0.499",
+     "0.758",
+     "0.078",
+     "858.000"
+    ],
+    [
+     "1.000",
+     "merit top-half + lottery",
+     "1.442",
+     "0.002",
+     "0.668",
+     "1.000",
+     "0.712",
+     "0.076",
+     "858.000"
+    ],
+    [
+     "1.000",
+     "pure lottery",
+     "-0.078",
+     "0.004",
+     "0.123",
+     "0.129",
+     "1.003",
+     "0.102",
+     "0.000"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s14b": {
+   "title": "Table S14b. Reliability meta-analysis and its propagation through the selection simulator.",
+   "columns": [
+    "Quantity",
+    "Estimate",
+    "Lower",
+    "Upper",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Single-rater ICC, pooled (REML/HKSJ)",
+     "0.261",
+     "0.238",
+     "0.284",
+     "k = 3; tau2 = 0.00000"
+    ],
+    [
+     "Panel of 3 raters (Spearman\u2013Brown)",
+     "0.515",
+     "0.484",
+     "0.543",
+     ""
+    ],
+    [
+     "Panel of 5 raters (Spearman\u2013Brown)",
+     "0.639",
+     "0.610",
+     "0.665",
+     ""
+    ],
+    [
+     "Two independent 5-rater stages averaged",
+     "0.779",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Propagated five-rater reliability (incl. between-funder SD 0.05)",
+     "0.64",
+     "0.49",
+     "0.74",
+     "median and 95% interval of draws"
+    ],
+    [
+     "single-stage panel: mean merit of funded set (SD)",
+     "1.252",
+     "1.087",
+     "1.346",
+     ""
+    ],
+    [
+     "single-stage panel: share of true top-K funded",
+     "0.587",
+     "0.495",
+     "0.670",
+     ""
+    ],
+    [
+     "single-stage panel: subgroup OR (pool shifted \u22120.2 SD)",
+     "0.743",
+     "0.730",
+     "0.781",
+     ""
+    ],
+    [
+     "two-stage (ERC-like): mean merit of funded set (SD)",
+     "1.386",
+     "1.259",
+     "1.448",
+     ""
+    ],
+    [
+     "two-stage (ERC-like): share of true top-K funded",
+     "0.680",
+     "0.590",
+     "0.749",
+     ""
+    ],
+    [
+     "two-stage (ERC-like): subgroup OR (pool shifted \u22120.2 SD)",
+     "0.725",
+     "0.719",
+     "0.753",
+     ""
+    ],
+    [
+     "threshold + lottery: mean merit of funded set (SD)",
+     "0.952",
+     "0.826",
+     "1.029",
+     ""
+    ],
+    [
+     "threshold + lottery: share of true top-K funded",
+     "0.411",
+     "0.364",
+     "0.441",
+     ""
+    ],
+    [
+     "threshold + lottery: subgroup OR (pool shifted \u22120.2 SD)",
+     "0.802",
+     "0.790",
+     "0.819",
+     ""
+    ],
+    [
+     "merit top-half + lottery: mean merit of funded set (SD)",
+     "1.136",
+     "0.988",
+     "1.222",
+     ""
+    ],
+    [
+     "merit top-half + lottery: share of true top-K funded",
+     "0.518",
+     "0.447",
+     "0.560",
+     ""
+    ],
+    [
+     "merit top-half + lottery: subgroup OR (pool shifted \u22120.2 SD)",
+     "0.768",
+     "0.750",
+     "0.790",
+     ""
+    ],
+    [
+     "pure lottery: mean merit of funded set (SD)",
+     "-0.082",
+     "-0.083",
+     "-0.078",
+     ""
+    ],
+    [
+     "pure lottery: share of true top-K funded",
+     "0.121",
+     "0.121",
+     "0.122",
+     ""
+    ],
+    [
+     "pure lottery: subgroup OR (pool shifted \u22120.2 SD)",
+     "1.001",
+     "0.990",
+     "1.012",
+     ""
+    ],
+    [
+     "Gain from ERC second stage (SD of merit)",
+     "0.134",
+     "0.102",
+     "0.172",
+     ""
+    ],
+    [
+     "Cost of threshold + lottery (SD of merit)",
+     "0.300",
+     "0.261",
+     "0.317",
+     ""
+    ],
+    [
+     "Cost of merit top-half + lottery (SD of merit)",
+     "0.116",
+     "0.099",
+     "0.124",
+     ""
+    ],
+    [
+     "Loss of true top-K precision, threshold + lottery",
+     "0.176",
+     "0.132",
+     "0.229",
+     ""
+    ],
+    [
+     "Gain in subgroup OR, threshold + lottery",
+     "0.059",
+     "0.039",
+     "0.060",
+     ""
+    ]
+   ],
+   "note": "",
+   "widths": [
+    40,
+    8,
+    8,
+    8,
+    26
+   ]
+  },
+  "s15": {
+   "title": "Table S15. Evidence map of quantitative studies used for context.",
+   "columns": [
+    "topic",
+    "study",
+    "design",
+    "setting",
+    "key_estimate_as_reported",
+    "verification"
+   ],
+   "rows": [
+    [
+     "Causal effect of winning an ERC grant",
+     "Ghirelli, Havari, Meroni & Verzillo (2023), IZA DP 16108 / JRC",
+     "Sharp RDD at panel ranking cut-offs (multi-cutoff) + difference-in-differences",
+     "All ERC applicants 2007-2013 (StG and AdG); Scopus outcomes up to 9 years",
+     "No statistically significant effect of winning on productivity or quality near the threshold (exception reported: Physics in StG)",
+     "verified 2026-09-06 (abstract/IZA newsroom)"
+    ],
+    [
+     "Early-career setback vs narrow win",
+     "Wang, Jones & Wang (2019), Nature Communications",
+     "RDD around NIH R01 payline; near-miss vs narrow-win junior PIs",
+     "NIH, 10-year follow-up",
+     "Near miss: >10% higher probability of leaving the NIH system; among those who persist, +6.1 percentage points probability of a top-5%-cited paper (p = 0.041); similar paper counts",
+     "verified 2026-09-06 (Nat Commun abstract + ScienceBlog summary)"
+    ],
+    [
+     "Private (philanthropic) vs public funding",
+     "Azoulay, Graff Zivin & Manso (2011), RAND Journal of Economics",
+     "Propensity-score weighting + difference-in-differences; HHMI investigators vs matched NIH-funded scientists",
+     "US academic life sciences",
+     "HHMI investigators produce high-impact papers at a much higher rate than NIH-funded controls (secondary summaries: roughly +39% publications, about +96% in the top-1% citation tier; 60-110% more high-impact papers); also more low-impact papers and more novel keywords",
+     "verified 2026-09-06 (abstract; magnitudes from secondary summaries)"
+    ],
+    [
+     "Gender and grant peer review (meta-analysis)",
+     "Schmaling & Gallo (2023), Research Integrity and Peer Review",
+     "Systematic review + meta-analysis of 55 studies (PROSPERO CRD42021232153)",
+     ">1.3 million applications, 1975-2020, mostly US/Europe",
+     "Award acceptance 1% higher for men, not significant (95% CI: 3% more for men to 1% more for women), k = 36, I2 = 84%; reapplication acceptance 9% higher for men (95% CI 1-18%); smaller award amounts for women (g = -2.28)",
+     "verified 2026-09-06 (PMC abstract)"
+    ],
+    [
+     "Gender and grant peer review (meta-analysis)",
+     "Bornmann, Mutz & Daniel (2007), Journal of Informetrics",
+     "Meta-analysis of 21 studies (66 effect sizes)",
+     "International funders",
+     "Men had about 7% greater odds of receiving a grant than women",
+     "verified 2026-09-06 (abstract)"
+    ],
+    [
+     "Gender and grant peer review (meta-analysis)",
+     "Marsh, Bornmann, Mutz, Daniel & O'Mara (2009), Review of Educational Research",
+     "Multilevel re-analysis of the same 66 effect sizes",
+     "International funders",
+     "No robust gender effect once study dependencies are modelled (some estimates favour women)",
+     "verified 2026-09-06 (secondary citation in Science and Public Policy 2025)"
+    ],
+    [
+     "Gender and funding rates (single funder)",
+     "Burns et al. (2019), PLoS Medicine",
+     "Retrospective analysis by institute/content area",
+     "Canadian Institutes of Health Research",
+     "Women: pooled RR 0.89 (95% CI 0.84-0.94) for grant success, absolute difference 3.2 pp, I2 = 58%; varies strongly by institute",
+     "verified 2026-09-06 (PMC abstract)"
+    ],
+    [
+     "Who benefits from early-career funding",
+     "Stavropoulou & Viney (2026), Nature Communications 17:7909",
+     "Propensity-score weighting of successful vs unsuccessful applicants who reached the board stage",
+     "UK Medical Research Council early-career schemes, applicants 2006-2016 (n = 2,030)",
+     "Funded applicants of both genders secure more future funding; funded women receive more citations and are better cited in their field than unfunded women; no significant productivity/influence difference for men",
+     "verified 2026-10-26 (PMC13442836; City Research Online)"
+    ],
+    [
+     "Grants and PI-driven output",
+     "Bajgar & Karapetyan (2025), IES Working Paper 30/2025, Charles University (revised Dec 2025; a 2026 journal version exists at ScienceDirect PII S016517652600056X but could not be accessed)",
+     "Augmented inverse probability weighting and regression discontinuity at the funding cutoff",
+     "Czech medical research grants awarded 2015-2019",
+     "Grants increase total publications over five years by about 2 papers (17%); RDD: first/last-author (PI-led) publications +1.8 papers (40%)",
+     "verified 2026-10-26 (IES abstract)"
+    ],
+    [
+     "Reliability of grant peer review",
+     "Mutz, Bornmann & Daniel (2012), PLoS ONE",
+     "GEE analysis of reviewer ratings",
+     "Austrian Science Fund (FWF): 8,329 proposals, 23,414 ratings",
+     "Single-rater intraclass correlation 0.259 (95% CI 0.249-0.279); higher in humanities, lower in biosciences",
+     "verified 2026-09-06 (abstract)"
+    ],
+    [
+     "Reliability of grant peer review",
+     "Cole, Cole & Simon (1981), Science; range as summarised by Cicchetti (1991) and cited in Hesselberg et al. (2025)",
+     "Re-review of NSF proposals",
+     "US National Science Foundation",
+     "Single-rater ICC between 0.17 and 0.37",
+     "verified 2026-10-26 (Hesselberg et al. 2025 registered report protocol; the range is attributed there to Cicchetti 1991)"
+    ],
+    [
+     "Reliability of grant peer review",
+     "Norwegian funder (unnamed), as cited in Hesselberg et al. (2025), PLoS ONE 20(5):e0322696 (registered report protocol)",
+     "Rating agreement analysis",
+     "a Norwegian funder (not named in the citing source)",
+     "ICC about 0.29 even after an intervention to raise agreement; 6-15 reviewers would be needed to reach ICC 0.75 (Spearman-Brown)",
+     "verified 2026-10-26 (PMC12124745)"
+    ],
+    [
+     "Reliability of grant peer review",
+     "Marsh, Jayasinghe & Bond (2008), American Psychologist (as cited)",
+     "Analysis of 10,023 ratings",
+     "Australian Research Council",
+     "Authors conclude funding decisions were based substantially on chance",
+     "verified 2026-09-06 (secondary citation)"
+    ],
+    [
+     "Reliability of peer review (journals; context only)",
+     "Bornmann, Mutz & Daniel (2010), PLoS ONE",
+     "Reliability-generalisation meta-analysis of 48 studies",
+     "19,443 manuscripts",
+     "Mean ICC/r^2 = 0.34; mean Cohen's kappa = 0.17",
+     "verified 2026-09-06 (abstract)"
+    ],
+    [
+     "Geographic concentration",
+     "ERC Scientific Council white paper (25 March 2026): Widening excellence - Bridging the ERC gap for a truly pan-European Research Area",
+     "Descriptive",
+     "ERC (all schemes)",
+     "Widening countries hold ~25% of EU population but about one-twentieth of ERC grants; success rates 1-7% vs ~11% average; in 2024, 940 applications from widening countries vs 7,271 from non-widening (11.4%)",
+     "verified 2026-10-26 (ERC news release and white paper PDF)"
+    ],
+    [
+     "Grant effect on productivity (NIH R01)",
+     "Jacob & Lefgren (2011), Journal of Public Economics",
+     "Fuzzy RDD at NIH priority-score payline",
+     "NIH R01",
+     "About one additional publication over five years (~7%) for marginal awardees",
+     "verified 2026-10-26 (NBER w13519 / PMC3156466)"
+    ],
+    [
+     "Matthew effect in funding",
+     "Bol, de Vaan & van de Rijt (2018), PNAS",
+     "RDD around NWO Veni threshold",
+     "Netherlands (NWO Veni)",
+     "Winners just above the threshold accumulate more than twice as much funding over the next eight years as near-losers; part of the gap arises because near-losers stop applying",
+     "verified 2026-10-26 (PMC5948972)"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  },
+  "s15b": {
+   "title": "Table S15b. Evidence map: sources.",
+   "columns": [
+    "study",
+    "url"
+   ],
+   "rows": [
+    [
+     "Ghirelli, Havari, Meroni & Verzillo (2023), IZA DP 16108 / JRC",
+     "https://docs.iza.org/dp16108.pdf"
+    ],
+    [
+     "Wang, Jones & Wang (2019), Nature Communications",
+     "https://www.nature.com/articles/s41467-019-12189-3"
+    ],
+    [
+     "Azoulay, Graff Zivin & Manso (2011), RAND Journal of Economics",
+     "https://www.nber.org/papers/w15466"
+    ],
+    [
+     "Schmaling & Gallo (2023), Research Integrity and Peer Review",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10155348/"
+    ],
+    [
+     "Bornmann, Mutz & Daniel (2007), Journal of Informetrics",
+     "https://www.researchgate.net/publication/222665448_Gender_differences_in_grant_peer_review_A_meta-analysis"
+    ],
+    [
+     "Marsh, Bornmann, Mutz, Daniel & O'Mara (2009), Review of Educational Research",
+     "https://dx.doi.org/10.1093/scipol/scaf012"
+    ],
+    [
+     "Burns et al. (2019), PLoS Medicine",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6793847/"
+    ],
+    [
+     "Stavropoulou & Viney (2026), Nature Communications 17:7909",
+     "https://www.nature.com/articles/s41467-026-73009-z"
+    ],
+    [
+     "Bajgar & Karapetyan (2025), IES Working Paper 30/2025, Charles University (revised Dec 2025; a 2026 journal version exists at ScienceDirect PII S016517652600056X but could not be accessed)",
+     "https://ies.fsv.cuni.cz/en/research-grants-and-independent-scientific-contributions-evidence-authorship-position"
+    ],
+    [
+     "Mutz, Bornmann & Daniel (2012), PLoS ONE",
+     "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0048509"
+    ],
+    [
+     "Cole, Cole & Simon (1981), Science; range as summarised by Cicchetti (1991) and cited in Hesselberg et al. (2025)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12124745"
+    ],
+    [
+     "Norwegian funder (unnamed), as cited in Hesselberg et al. (2025), PLoS ONE 20(5):e0322696 (registered report protocol)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12124745"
+    ],
+    [
+     "Marsh, Jayasinghe & Bond (2008), American Psychologist (as cited)",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12124745/"
+    ],
+    [
+     "Bornmann, Mutz & Daniel (2010), PLoS ONE",
+     "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0014331"
+    ],
+    [
+     "ERC Scientific Council white paper (25 March 2026): Widening excellence - Bridging the ERC gap for a truly pan-European Research Area",
+     "https://erc.europa.eu/news-events/news/erc-calls-stronger-action-close-europes-research-performance-gap"
+    ],
+    [
+     "Jacob & Lefgren (2011), Journal of Public Economics",
+     "https://doi.org/10.1016/j.jpubeco.2011.05.005"
+    ],
+    [
+     "Bol, de Vaan & van de Rijt (2018), PNAS",
+     "https://doi.org/10.1073/pnas.1719557115"
+    ]
+   ],
+   "note": "",
+   "widths": null
+  }
+ }
+}

@@ -1,0 +1,6 @@
+analysis,error,median,lo,hi,p_below_1
+denominator rounding only,systematic,1.0844,1.0751,1.0939,0.0
+denominator rounding only,systematic+random,1.0835,1.0131,1.1589,0.0088
+rounding + domain composition,systematic,1.0847,1.0751,1.0944,0.0
+rounding + domain composition,systematic+random,1.0848,1.0115,1.161,0.0114
+conventional REML/HKSJ,random,1.0846,1.0054,1.1701,
